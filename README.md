@@ -3,6 +3,7 @@
 - 🌱 I’m currently learning react nodeJs
 - 💞️ I’m looking to collaborate on Open source project
 - 📫 iliyabrook1987@gmail.com
+- My last project for searching news https://search-news-client.netlify.app [react js "client side"] [python flask "server side"]
 
 <!---
 IliyaBrook/IliyaBrook is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
