@@ -113,13 +113,7 @@
            </svg>
       </a>
     </h3>
-<div 
-     style="padding: 0.5rem;display:flex;
-     justify-content: flex-start;
-     width:100%;
-     font-size: 0.8rem;
-     margin-top: 1.5rem;
-">
+<div>
     <span style="display: flex;flex-direction: column;align-items: center">
       <a href="https://www.mongodb.com/"> 
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
