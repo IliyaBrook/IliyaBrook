@@ -170,7 +170,7 @@
          style="height: 30px;">
       </a>
       </span>
-      <span>
+      <span style="margin-right: 10px">
          <a href="https://www.facebook.com/iliya.brook"> 
          <img src="https://findicons.com/files/icons/1181/flurry_extras_2/128/facebook.png"
          alt="Facebook" 
