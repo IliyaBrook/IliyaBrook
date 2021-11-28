@@ -25,6 +25,7 @@
     <a href="https://github.com/IliyaBrook?tab=repositories"><img align="center" src="https://github.com/devicons/devicon/raw/master/icons/github/github-original.svg" alt="https://github.com/BarOvda" height="30" width="40" style="max-width: 100%;"></a>
   </li>
   </ul>
+
 <div style="margin-top: 5rem">
     <h2 dir="auto">
       <a id="user-content--languages-and-tools" 
@@ -43,62 +44,51 @@
       </a>
     </h3>
 
-<div 
-     style="padding: 0.5rem;display:flex;
-     justify-content: flex-start;
-     width:100%;
-     font-size: 0.8rem;
-     margin-top: 1.5rem;
-">
-    <span style="display: 
-          flex;flex-direction: column;align-items: center">
-      <a href="https://nodejs.org/en/"> 
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
-      alt="NodeJsSkill" 
-      style="height: 30px;">
+<div>
+    <table>
+    <tr style="border: none">
+      <td style="border: none">
+        <a href="https://nodejs.org/en/"> 
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
+        alt="NodeJsSkill" 
+        style="height: 30px;">
+        </a>
+        <p>NodeJs</p>
+      </td>
+      <td style="border: none">
+        <a href="https://www.w3schools.com/js/"> 
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+        alt="JSskill" 
+        style="height: 30px;">
+        </a>
+        <p>JS</p>
+      </td>
+      <td style="border: none">
+        <a href="https://www.w3schools.com/css/"> 
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
+        alt="CSSSkill" 
+        style="height: 30px;">
+        </a>
+        <p>CSS</p>
+        </td>
+      <td style="border: none">
+        <a href="https://reactjs.org/"> 
+        <img src="https://cdn.worldvectorlogo.com/logos/react-1.svg" 
+        alt="ReactSkill" 
+        style="height: 30px;">
+        </a>
+        <p>React</p>
+      </td>
+      <td style="border: none">
+        <a href="https://redux.js.org"> 
+        <img src="https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg" 
+        alt="ReduxSkill" 
+        style="height: 30px;">
       </a>
-      <label>NodeJs</label>
-    </span>
-    <span style="background-color: red">
-      <a href="https://www.w3schools.com/js/"> 
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
-      alt="JSskill" 
-      style="height: 30px;">
-      </a>
-      <label>JS</label>
-    </span>
-    <span style="display: flex;flex-direction: column;align-items: center;margin-left: 1rem">
-      <a href="https://www.w3schools.com/css/"> 
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
-      alt="CSSSkill" 
-      style="height: 30px;">
-      </a>
-      <label>CSS</label>
-    </span>
-    <span style="display: flex;flex-direction: column;align-items: center;margin-left: 1rem">
-      <a href="https://reactjs.org/"> 
-      <img src="https://cdn.worldvectorlogo.com/logos/react-1.svg" 
-      alt="ReactSkill" 
-      style="height: 30px;">
-      </a>
-      <label>React</label>
-    </span>
-    <span style="display: flex;flex-direction: column;align-items: center;margin-left: 1rem">
-      <a href="https://redux.js.org"> 
-      <img src="https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg" 
-      alt="ReduxSkill" 
-      style="height: 30px;">
-      </a>
-      <label>Redux</label>
-    </span>
-    <span style="display: flex;flex-direction: column;align-items: center;margin-left: 1rem">
-      <a href="https://redux-saga.js.org"> 
-      <img src="https://cdn.worldvectorlogo.com/logos/redux-saga.svg" 
-      alt="ReduxSagaSkill" 
-      style="height: 30px;">
-      </a>
-      <label>Redux-Saga</label>
-    </span>
+      <p>Redux</p>
+    </tr>
+</table>
+    <div>
 </div>
     <h3
        style="border-bottom: 1px solid;
@@ -114,59 +104,63 @@
       </a>
     </h3>
 <div>
-    <span>
-      <a href="https://www.mongodb.com/"> 
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
-      alt="MongoDBSkill" 
-      style="height: 30px;">
-      </a>
-      <label>MongoDB</label>
-    </span>
-    <span style="display: flex;flex-direction: column;align-items: center;margin-left: 1rem">
-      <a href="https://github.com/"> 
-      <img src="https://github.com/devicons/devicon/raw/master/icons/github/github-original.svg"
-      alt="GitHub skill" 
-      style="height: 30px;">
-      </a>
-      <label>GitHub</label>
-    </span>
-    <span style="display: flex;flex-direction: column;align-items: center;margin-left: 1rem">
-      <a href="https://getbootstrap.com/"> 
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"
-      alt="BootstrapSkill" 
-      style="height: 30px;">
-      </a>
-      <label>Bootstrap</label>
-    </span>
-    <span style="display: flex;flex-direction: column;align-items: center;margin-left: 1rem">
-      <a href="https://www.mysql.com"> 
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" 
-      alt="MySQLSkill" 
-      style="height: 30px;">
-      </a>
-      <label>MySQL</label>
-    </span>
-    <span style="display: flex;flex-direction: column;align-items: center;margin-left: 1rem">
-      <a href="https://www.postman.com/"> 
-      <img src="https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667" 
-      alt="PostmanSkill" 
-      style="height: 30px;">
-      </a>
-      <label>Postman</label>
-    </span>
-    <span style="display: flex;flex-direction: column;align-items: center;margin-left: 1rem">
-      <a href="https://www.python.org"> 
-      <img src="https://github.com/devicons/devicon/raw/master/icons/python/python-original.svg" 
-      alt="PythonSkill" 
-      style="height: 30px;">
-      </a>
-      <label>Python</label>
-    </span>
+    <table>
+      <tr style="border: none">
+       <td style="border: none">
+         <a href="https://www.mongodb.com/"> 
+         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
+         alt="MongoDBSkill" 
+         style="height: 30px;">
+         </a>
+         <p>MongoDB</p>
+       </td>
+       <td style="border: none">
+         <a href="https://github.com/"> 
+         <img src="https://github.com/devicons/devicon/raw/master/icons/github/github-original.svg"
+         alt="GitHub skill" 
+         style="height: 30px;">
+         </a>
+         <p>GitHub</p>
+       </td>
+       <td style="border: none">
+           <a href="https://www.mysql.com"> 
+           <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" 
+           alt="MySQLSkill" 
+           style="height: 30px;">
+           </a>
+           <p>MySQL</p>
+       </td>
+       <td style="border: none">
+           <a href="https://www.postman.com/"> 
+           <img src="https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667" 
+           alt="PostmanSkill" 
+           style="height: 30px;">
+           </a>
+           <p>Postman</p>
+       </td>
+       <td style="border: none">
+          <a href="https://getbootstrap.com/"> 
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"
+          alt="BootstrapSkill" 
+          style="height: 30px;">
+          </a>
+          <p>Bootstrap</p>
+       </td>
+       <td style="border: none">
+          <a href="https://www.python.org"> 
+          <img src="https://github.com/devicons/devicon/raw/master/icons/python/python-original.svg" 
+          alt="PythonSkill" 
+          style="height: 30px;">
+          </a>
+          <p>Python</p>
+       </td>
+      </tr>
+    </table>
 </div>
 <h2 dir="auto">
   Connect with me
 </h2>
-    <div style="display: flex;justify-content: flex-start;">
+    <div>
       <span style="margin-right: 10px">
          <a href="https://www.linkedin.com/in/iliya-brook-2176bb167/"> 
          <img src="https://github.com/devicons/devicon/raw/master/icons/linkedin/linkedin-original.svg"
@@ -174,7 +168,7 @@
          style="height: 30px;">
       </a>
       </span>
-      <span style="margin-left: 10px">
+      <span>
          <a href="https://www.facebook.com/iliya.brook"> 
          <img src="https://findicons.com/files/icons/1181/flurry_extras_2/128/facebook.png"
          alt="Facebook" 
@@ -182,4 +176,5 @@
          </a>
       </span>
     </div>
+</div>
 </div>
