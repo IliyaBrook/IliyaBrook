@@ -59,7 +59,7 @@
       </a>
       <label>NodeJs</label>
     </span>
-    <span style="display: flex;flex-direction: column;align-items: center;margin-left: 1rem">
+    <span style="background-color: red">
       <a href="https://www.w3schools.com/js/"> 
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
       alt="JSskill" 
@@ -114,7 +114,7 @@
       </a>
     </h3>
 <div>
-    <span style="display: flex;flex-direction: column;align-items: center">
+    <span>
       <a href="https://www.mongodb.com/"> 
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
       alt="MongoDBSkill" 
