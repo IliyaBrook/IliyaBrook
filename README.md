@@ -12,7 +12,7 @@
     <g-emoji class="g-emoji" alias="globe_with_meridians" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f310.png">🌐</g-emoji> I create web and mobile applications!
   </li>
   <li>
-    👔 Currently working as a Full Stack Developer at Progeeks LTD
+    👔 Currently working as a Full Stack Developer
   </li>
   <li>
     💖 Love my family and JavaScript 😆
