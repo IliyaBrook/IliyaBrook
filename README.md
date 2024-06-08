@@ -40,176 +40,133 @@
 
 <div>
     <table>
-    <tr style="border: none">
-      <td style="border: none">
-        <a href="https://nodejs.org/en/"> 
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
-        alt="NodeJsSkill" 
-        style="height: 40px;">
-        </a>
-        <p>Node.js</p>
-      </td>
-      <td style="border: none">
-        <a href="https://www.w3schools.com/js/"> 
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
-        alt="JSskill" 
-        style="height: 40px;">
-        </a>
-        <p>JavaScript</p>
-      </td>
-      <td style="border: none">
-        <a href="https://www.w3schools.com/css/"> 
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
-        alt="HTMLSkill" 
-        style="height: 40px;">
-        </a>
-        <p>HTML</p>
-        </td>
-      <td style="border: none">
-        <a href="https://www.w3schools.com/css/"> 
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
-        alt="CSSSkill" 
-        style="height: 40px;">
-        </a>
-        <p>CSS</p>
-        </td>
-      <td style="border: none">
-        <a href="https://reactjs.org/"> 
-        <img src="https://cdn.worldvectorlogo.com/logos/react-1.svg" 
-        alt="ReactSkill" 
-        style="height: 40px;">
-        </a>
-        <p>React</p>
-      </td>
-      <td style="border: none">
-        <a href="https://redux.js.org"> 
-        <img src="https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg" 
-        alt="ReduxSkill" 
-        style="height: 40px;">
-      </a>
-      <p>Redux</p>
-    </td>
-    </tr>
-    <tr style="border: none">
-       <td style="border: none">
-         <a href="https://www.mongodb.com/"> 
-         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
-         alt="MongoDBSkill" 
-         style="height: 40px;">
-         </a>
-         <p>MongoDB</p>
-       </td>
-       <td style="border: none">
-         <a href="https://github.com/"> 
-         <img src="https://github.com/devicons/devicon/raw/master/icons/github/github-original.svg"
-         alt="GitHub skill" 
-         style="height: 40px;">
-         </a>
-         <p>GitHub</p>
-       </td>
-       <td style="border: none">
-           <a href="https://www.mysql.com"> 
-           <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" 
-           alt="MySQLSkill" 
-           style="height: 40px;">
-           </a>
-           <p>MySQL</p>
-       </td>
-       <td style="border: none">
-          <a href="https://getbootstrap.com/"> 
-          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"
-          alt="BootstrapSkill" 
-          style="height: 40px;">
-          </a>
-          <p>Bootstrap</p>
-       </td>
-       <td style="border: none">
-          <a href="https://www.python.org"> 
-          <img src="https://github.com/devicons/devicon/raw/master/icons/python/python-original.svg" 
-          alt="PythonSkill" 
-          style="height: 40px;">
-          </a>
-          <p>Python</p>
-       </td>
-      </tr>
-      <tr style="border: none">
-       <td style="border: none">
-         <a href="https://www.typescriptlang.org/"> 
-         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
-         alt="TypeScriptSkill" 
-         style="height: 40px;">
-         </a>
-         <p>TypeScript</p>
-       </td>
-       <td style="border: none">
-         <a href="https://expressjs.com/"> 
-         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg"
-         alt="ExpressSkill" 
-         style="height: 40px;">
-         </a>
-         <p>Express</p>
-       </td>
-       <td style="border: none">
-           <a href="https://graphql.org/"> 
-           <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/graphql/graphql-plain-wordmark.svg" 
-           alt="GraphQLSkill" 
-           style="height: 40px;">
-           </a>
-           <p>GraphQL</p>
-       </td>
-       <td style="border: none">
-          <a href="https://strapi.io/"> 
-          <img src="https://avatars.githubusercontent.com/u/19872168?s=200&v=4"
-          alt="StrapiSkill" 
-          style="height: 40px;">
-          </a>
-          <p>Strapi</p>
-       </td>
-       <td style="border: none">
-          <a href="https://nextjs.org/"> 
-          <img src="https://github.com/devicons/devicon/raw/master/icons/nextjs/nextjs-original.svg"
-          alt="NextJsSkill" 
-          style="height: 40px;">
-          </a>
-          <p>Next.js</p>
-       </td>
-       <td style="border: none">
-          <a href="https://www.docker.com/"> 
-          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" 
-          alt="DockerSkill" 
-          style="height: 40px;">
-          </a>
-          <p>Docker</p>
-       </td>
-      </tr>
-      <tr style="border: none">
-       <td style="border: none">
-         <a href="https://kubernetes.io/"> 
-         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain-wordmark.svg"
-         alt="KubernetesSkill" 
-         style="height: 40px;">
-         </a>
-         <p>Kubernetes</p>
-       </td>
-       <td style="border: none">
-         <a href="https://cloud.google.com/"> 
-         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/googlecloud/googlecloud-original.svg"
-         alt="GoogleCloudSkill" 
-         style="height: 40px;">
-         </a>
-         <p>Google Cloud</p>
-       </td>
-       <td style="border: none">
-           <a href="https://aws.amazon.com/"> 
-           <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" 
-           alt="AWSSkill" 
-           style="height: 40px;">
-           </a>
-           <p>AWS</p>
-       </td>
-      </tr>
+<tr style="border: none">
+            <td style="border: none">
+                <a href="https://www.mysql.com">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQLSkill" style="height: 40px;">
+                </a>
+                <p>MySQL</p>
+            </td>
+            <td style="border: none">
+                <a href="https://getbootstrap.com/">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="BootstrapSkill" style="height: 40px;">
+                </a>
+                <p>Bootstrap</p>
+            </td>
+            <td style="border: none">
+                <a href="https://www.python.org">
+                    <img src="https://github.com/devicons/devicon/raw/master/icons/python/python-original.svg" alt="PythonSkill" style="height: 40px;">
+                </a>
+                <p>Python</p>
+            </td>
+            <td style="border: none">
+                <a href="https://www.typescriptlang.org/">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="TypeScriptSkill" style="height: 40px;">
+                </a>
+                <p>TypeScript</p>
+            </td>
+            <td style="border: none">
+                <a href="https://expressjs.com/">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="ExpressSkill" style="height: 40px;">
+                </a>
+                <p>Express</p>
+            </td>
+            <td style="border: none">
+                <a href="https://graphql.org/">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/graphql/graphql-plain-wordmark.svg" alt="GraphQLSkill" style="height: 40px;">
+                </a>
+                <p>GraphQL</p>
+            </td>
+            <td style="border: none">
+                <a href="https://strapi.io/">
+                    <img src="https://avatars.githubusercontent.com/u/19872168?s=200&v=4" alt="StrapiSkill" style="height: 40px;">
+                </a>
+                <p>Strapi</p>
+            </td>
+            <td style="border: none">
+                <a href="https://nextjs.org/">
+                    <img src="https://github.com/devicons/devicon/raw/master/icons/nextjs/nextjs-original.svg" alt="NextJsSkill" style="height: 40px;">
+                </a>
+                <p>Next.js</p>
+            </td>
+            <td style="border: none">
+                <a href="https://www.docker.com/">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="DockerSkill" style="height: 40px;">
+                </a>
+                <p>Docker</p>
+            </td>
+            <td style="border: none">
+                <a href="https://kubernetes.io/">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain-wordmark.svg" alt="KubernetesSkill" style="height: 40px;">
+                </a>
+                <p>Kubernetes</p>
+            </td>
+            <td style="border: none">
+                <a href="https://cloud.google.com/">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/googlecloud/googlecloud-original.svg" alt="GoogleCloudSkill" style="height: 40px;">
+                </a>
+                <p>Google Cloud</p>
+            </td>
+            <td style="border: none">
+                <a href="https://aws.amazon.com/">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWSSkill" style="height: 40px;">
+                </a>
+                <p>AWS</p>
+            </td>
+        </tr>
+        <tr style="border: none">
+            <td style="border: none">
+                <a href="https://nodejs.org/en/">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="NodeJsSkill" style="height: 40px;">
+                </a>
+                <p>Node.js</p>
+            </td>
+            <td style="border: none">
+                <a href="https://www.w3schools.com/js/">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JSskill" style="height: 40px;">
+                </a>
+                <p>JavaScript</p>
+            </td>
+            <td style="border: none">
+                <a href="https://www.w3schools.com/css/">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTMLSkill" style="height: 40px;">
+                </a>
+                <p>HTML</p>
+            </td>
+            <td style="border: none">
+                <a href="https://www.w3schools.com/css/">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSSSkill" style="height: 40px;">
+                </a>
+                <p>CSS</p>
+            </td>
+            <td style="border: none">
+                <a href="https://reactjs.org/">
+                    <img src="https://cdn.worldvectorlogo.com/logos/react-1.svg" alt="ReactSkill" style="height: 40px;">
+                </a>
+                <p>React</p>
+            </td>
+            <td style="border: none">
+                <a href="https://redux.js.org">
+                    <img src="https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg" alt="ReduxSkill" style="height: 40px;">
+                </a>
+                <p>Redux</p>
+            </td>
+            <td style="border: none">
+                <a href="https://www.mongodb.com/">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="MongoDBSkill" style="height: 40px;">
+                </a>
+                <p>MongoDB</p>
+            </td>
+            <td style="border: none">
+                <a href="https://github.com/">
+                    <img src="https://github.com/devicons/devicon/raw/master/icons/github/github-original.svg" alt="GitHub skill" style="height: 40px;">
+                </a>
+                <p>GitHub</p>
+            </td>
+        </tr>
     </table>
 </div>
+
 
 <h2 dir="auto">
   Connect with me
