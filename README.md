@@ -1,233 +1,142 @@
-# 👋 Hi, I’m @IliyaBrook
+# Hi there, I'm Iliya Brook! 👋
 
-<div>
-<h2 dir="auto"><a id="user-content--about-me" class="anchor" aria-hidden="true" href="#-about-me"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a><g-emoji class="g-emoji" alias="book" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4d6.png">📖</g-emoji> About me</h2>
-<hr>
-</div>
-<ul style="letter-spacing: 0.1ch;line-height: 2rem">
-  <li>
-    <g-emoji class="g-emoji" alias="globe_with_meridians" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f310.png">🌐</g-emoji> I create web and mobile applications!
-  </li>
-  <li>
-    👔 Currently working as a Full Stack Developer
-  </li>
-  <li>
-    💖 Love my family and JavaScript 😆
-  </li>
-  <li>
-    <img class="emoji" title=":octocat:" alt=":octocat:" src="https://github.githubassets.com/images/icons/emoji/octocat.png" height="20" width="20" align="absmiddle">
-    Check out my projects at 
-    <a href="https://github.com/IliyaBrook?tab=repositories"><img align="center" src="https://github.com/devicons/devicon/raw/master/icons/github/github-original.svg" alt="GitHub" height="30" width="40" style="max-width: 100%;"></a>
-  </li>
-</ul>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/iliya-brook)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/IliyaBrook)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:iliyabrook1987@gmail.com)
 
-<div style="margin-top: 5rem">
-    <h2 dir="auto">
-      <a id="user-content--languages-and-tools" class="anchor" aria-hidden="true">
-      <svg class="octicon octicon-link" 
-      viewBox="0 0 16 16" version="1.1" 
-      width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" 
-      d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a><g-emoji class="g-emoji" alias="man_technologist" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f468-1f4bb.png">👨‍💻</g-emoji> Languages and Tools</h2>
-    <hr>
-    <h3 dir="auto" style="border-bottom: 1px solid;display: flex;width: fit-content; padding: 2px">
-      My top skills:
-      <a id="user-content-my-top-skills" class="anchor" aria-hidden="true">
-        <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z">
-          </path>
-        </svg>
-      </a>
-    </h3>
+## 🚀 About Me
 
-<div>
-    <table>
-    <tr style="border: none">
-      <td style="border: none">
-        <a href="https://nodejs.org/en/"> 
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
-        alt="NodeJsSkill" 
-        style="height: 40px;">
-        </a>
-        <p>Node.js</p>
-      </td>
-      <td style="border: none">
-        <a href="https://www.w3schools.com/js/"> 
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
-        alt="JSskill" 
-        style="height: 40px;">
-        </a>
-        <p>JavaScript</p>
-      </td>
-      <td style="border: none">
-        <a href="https://www.w3schools.com/css/"> 
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
-        alt="HTMLSkill" 
-        style="height: 40px;">
-        </a>
-        <p>HTML</p>
-        </td>
-      <td style="border: none">
-        <a href="https://www.w3schools.com/css/"> 
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
-        alt="CSSSkill" 
-        style="height: 40px;">
-        </a>
-        <p>CSS</p>
-        </td>
-      <td style="border: none">
-        <a href="https://reactjs.org/"> 
-        <img src="https://cdn.worldvectorlogo.com/logos/react-1.svg" 
-        alt="ReactSkill" 
-        style="height: 40px;">
-        </a>
-        <p>React</p>
-      </td>
-    </tr>
-    <tr style="border: none">
-       <td style="border: none">
-         <a href="https://www.mongodb.com/"> 
-         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
-         alt="MongoDBSkill" 
-         style="height: 40px;">
-         </a>
-         <p>MongoDB</p>
-       </td>
-       <td style="border: none">
-         <a href="https://github.com/"> 
-         <img src="https://github.com/devicons/devicon/raw/master/icons/github/github-original.svg"
-         alt="GitHub skill" 
-         style="height: 40px;">
-         </a>
-         <p>GitHub</p>
-       </td>
-       <td style="border: none">
-           <a href="https://www.mysql.com"> 
-           <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" 
-           alt="MySQLSkill" 
-           style="height: 40px;">
-           </a>
-           <p>MySQL</p>
-       </td>
-       <td style="border: none">
-          <a href="https://getbootstrap.com/"> 
-          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"
-          alt="BootstrapSkill" 
-          style="height: 40px;">
-          </a>
-          <p>Bootstrap</p>
-       </td>
-       <td style="border: none">
-          <a href="https://www.python.org"> 
-          <img src="https://github.com/devicons/devicon/raw/master/icons/python/python-original.svg" 
-          alt="PythonSkill" 
-          style="height: 40px;">
-          </a>
-          <p>Python</p>
-       </td>
-      </tr>
-      <tr style="border: none">
-       <td style="border: none">
-         <a href="https://www.typescriptlang.org/"> 
-         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
-         alt="TypeScriptSkill" 
-         style="height: 40px;">
-         </a>
-         <p>TypeScript</p>
-       </td>
-       <td style="border: none">
-         <a href="https://expressjs.com/"> 
-         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg"
-         alt="ExpressSkill" 
-         style="height: 40px;">
-         </a>
-         <p>Express</p>
-       </td>
-       <td style="border: none">
-           <a href="https://graphql.org/"> 
-           <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/graphql/graphql-plain-wordmark.svg" 
-           alt="GraphQLSkill" 
-           style="height: 40px;">
-           </a>
-           <p>GraphQL</p>
-       </td>
-       <td style="border: none">
-          <a href="https://strapi.io/"> 
-          <img src="https://avatars.githubusercontent.com/u/19872168?s=200&v=4"
-          alt="StrapiSkill" 
-          style="height: 40px;">
-          </a>
-          <p>Strapi</p>
-       </td>
-       <td style="border: none">
-          <a href="https://nextjs.org/"> 
-          <img src="https://github.com/devicons/devicon/raw/master/icons/nextjs/nextjs-original.svg"
-          alt="NextJsSkill" 
-          style="height: 40px;">
-          </a>
-          <p>Next.js</p>
-       </td>
-      </tr>
-      <tr style="border: none">
-       <td style="border: none">
-         <a href="https://kubernetes.io/"> 
-         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain-wordmark.svg"
-         alt="KubernetesSkill" 
-         style="height: 40px;">
-         </a>
-         <p>Kubernetes</p>
-       </td>
-       <td style="border: none">
-         <a href="https://cloud.google.com/"> 
-         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/googlecloud/googlecloud-original.svg"
-         alt="GoogleCloudSkill" 
-         style="height: 40px;">
-         </a>
-         <p>Google Cloud</p>
-       </td>
-       <td style="border: none">
-           <a href="https://aws.amazon.com/"> 
-           <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" 
-           alt="AWSSkill" 
-           style="height: 40px;">
-           </a>
-           <p>AWS</p>
-       </td>
-       <td style="border: none">
-          <a href="https://www.docker.com/"> 
-          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" 
-          alt="DockerSkill" 
-          style="height: 40px;">
-          </a>
-          <p>Docker</p>
-       </td>
-	     <td style="border: none">
-	        <a href="https://redux.js.org"> 
-	        <img src="https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg" 
-	        alt="ReduxSkill" 
-	        style="height: 40px;">
-	      </a>
-           <p>Redux</p>
-			</td>
-      </tr>
-    </table>
-</div>
+I'm a **Full Stack Developer** based in Tel-Aviv with **4+ years of experience** building scalable and responsive web applications. I'm passionate about creating user-centric solutions and constantly learning new technologies to deliver high-quality software.
 
-<h2 dir="auto">
-  Connect with me
-</h2>
-    <div>
-      <span style="margin-right: 10px">
-         <a href="https://www.linkedin.com/in/iliya-brook-2176bb167/"> 
-         <img src="https://github.com/devicons/devicon/raw/master/icons/linkedin/linkedin-original.svg"
-         alt="Linkedin" 
-         style="height: 40px;">
-      </a>
-      </span>
-      <span style="margin-right: 10px">
-         <a href="https://www.facebook.com/iliya.brook"> 
-         <img src="https://findicons.com/files/icons/1181/flurry_extras_2/128/facebook.png"
-         alt="Facebook" 
-         style="height: 40px;">
-         </a>
-      </span>
-    </div>
-</div>
+- 🔭 Currently working as a **Full Stack Developer** (Freelance)
+- 🌱 Always learning and exploring new technologies
+- 💼 Previously worked at **Progeeks LTD** optimizing CRM systems and implementing CI/CD pipelines
+- 💖 Love my family and JavaScript 😆
+- 📍 Based in Tel-Aviv, Israel
+
+## 🛠️ Tech Stack
+
+### Frontend
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![Svelte](https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00)
+![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+
+### Backend & APIs
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
+![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
+![Apollo GraphQL](https://img.shields.io/badge/Apollo%20GraphQL-311C87?style=for-the-badge&logo=apollo-graphql)
+![REST API](https://img.shields.io/badge/REST-02569B?style=for-the-badge&logo=rest&logoColor=white)
+![Strapi](https://img.shields.io/badge/strapi-%232E7EEA.svg?style=for-the-badge&logo=strapi&logoColor=white)
+![Meteor JS](https://img.shields.io/badge/meteorjs-%23d74c4c.svg?style=for-the-badge&logo=meteor&logoColor=white)
+
+### Programming Languages
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+
+### Databases
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
+
+### Cloud & DevOps
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+![Google Kubernetes Engine](https://img.shields.io/badge/GKE-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+### Testing & Quality Assurance
+![Mocha](https://img.shields.io/badge/mocha.js-323330?style=for-the-badge&logo=mocha&logoColor=Brown)
+![React Testing Library](https://img.shields.io/badge/-TestingLibrary-%23E33332?style=for-the-badge&logo=testing-library&logoColor=white)
+
+### Operating Systems
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+
+## 🏆 Key Achievements
+
+- 🚀 **Reduced deployment time by 60%** through CI/CD pipeline implementation with Docker, Kubernetes & AWS
+- ⚡ **Improved application load speeds by 50%** by refactoring codebase to Redux architecture
+- 💰 **Achieved 20% reduction in operational costs** with Node.js WhatsApp signing solution
+- 📊 **Enhanced user engagement by 25%** through full-stack web application development
+- 🎯 **Maintained 99%+ application SLAs** ensuring high availability and reliability
+- 🔧 **Improved data exchange efficiency by 30%** with robust RESTful APIs
+
+## 🔥 Featured Projects
+
+### 🤖 [AutoApplyLinkedIn](https://github.com/IliyaBrook/autoApplylinkedin)
+Chrome extension that streamlines job search on LinkedIn by automating Easy Apply applications
+- **Tech Stack:** JavaScript, Chrome Extension API
+- **Features:** Smart filtering, form control, external job link management
+
+### 📄 [AI Resume Builder](https://github.com/IliyaBrook/AI-Resumes-Builder)
+AI-powered resume builder with local creation and management capabilities
+- **Tech Stack:** TypeScript, Hono, Gemini API
+- **Features:** PDF generation, customizable templates, AI enhancement
+
+### 🖼️ [AI Image Detector](https://github.com/IliyaBrook/AiGenImageDetector)
+Advanced tool for detecting AI-generated images
+- **Tech Stack:** TypeScript
+- **Purpose:** Content verification and authenticity checking
+
+### 📝 [Smart Form Fill](https://github.com/IliyaBrook/smart_form_fill)
+Chrome extension for automatically filling web forms with predefined data profiles
+- **Tech Stack:** TypeScript, React, Vite, Tailwind CSS
+- **Features:** Multiple form profiles, secure data storage, file input autofill, automatic field detection
+
+## 📊 GitHub Stats
+
+![Iliya's GitHub stats](https://github-readme-stats.vercel.app/api?username=IliyaBrook&show_icons=true&theme=radical)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=IliyaBrook&layout=compact&theme=radical)
+
+## 📈 GitHub Profile Stats
+
+![GitHub followers](https://img.shields.io/github/followers/IliyaBrook?label=Followers&style=social)
+![GitHub User's stars](https://img.shields.io/github/stars/IliyaBrook?label=Stars&style=social)
+![Profile views](https://komarev.com/ghpvc/?username=IliyaBrook&color=brightgreen)
+
+## 🎓 Education & Certifications
+
+- 🎯 **Hexlet Online Programming School** - Full-Stack Development Certificate
+- 🔒 **John Bryce College** - Cyber Security Certificate  
+- 🌐 **ITC InterBit** - Cisco Certified Network Associate (CCNA)
+
+## 💼 Professional Experience
+
+### Full Stack Developer | Freelance (2024 - Present)
+- Developing full-stack applications with React, Node.js, and MongoDB
+- Implementing robust RESTful APIs with Express.js and PostgreSQL
+- Collaborating via Agile methodologies, delivering 15+ high-quality solutions
+- Creating responsive interfaces resulting in 20% increase in user satisfaction
+
+### Full Stack Developer | Progeeks LTD (2021-2024)
+- Optimized CRM systems using React, Node.js, and MongoDB
+- Engineered WhatsApp signing solutions reducing operational costs by 20%
+- Spearheaded CI/CD pipeline implementation cutting deployment time by 60%
+- Enhanced team productivity through modern Redux architecture refactoring
+
+## 🤝 Let's Connect!
+
+I'm always open to discussing new opportunities, collaborating on interesting projects, or just having a chat about technology!
+
+- 📧 **Email:** [iliyabrook1987@gmail.com](mailto:iliyabrook1987@gmail.com)
+- 💼 **LinkedIn:** [linkedin.com/in/iliya-brook](https://www.linkedin.com/in/iliya-brook)
+- 🐙 **GitHub:** [github.com/IliyaBrook](https://github.com/IliyaBrook)
+- 📱 **Phone:** +972-54-930-3336
+
+---
+
+⭐️ From [IliyaBrook](https://github.com/IliyaBrook) - *Building the future, one commit at a time!* 
