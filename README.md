@@ -98,9 +98,9 @@ Chrome extension for automatically filling web forms with predefined data profil
 
 ## 📊 GitHub Stats
 
-![Iliya's GitHub stats](https://github-readme-stats.vercel.app/api?username=IliyaBrook&show_icons=true&theme=radical)
+![Iliya's GitHub stats](https://github-readme-stats.vercel.app/api?username=IliyaBrook&show_icons=true&theme=radical&count_private=true&include_all_commits=true&hide=stars,prs,issues,contribs)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=IliyaBrook&layout=compact&theme=radical)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=IliyaBrook&layout=compact&theme=radical&count_private=true&include_all_commits=true)
 
 ## 📈 GitHub Profile Stats
 
