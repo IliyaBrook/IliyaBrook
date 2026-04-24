@@ -77,26 +77,6 @@ I'm a **Full Stack Developer** based in Tel-Aviv with **4+ years of experience**
 ![GitHub User's stars](https://img.shields.io/github/stars/IliyaBrook?label=Stars&style=social)
 ![Profile views](https://komarev.com/ghpvc/?username=IliyaBrook&color=brightgreen)
 
-## 🎓 Education & Certifications
-
-- 🎯 **Hexlet Online Programming School** - Full-Stack Development Certificate
-- 🔒 **John Bryce College** - Cyber Security Certificate  
-- 🌐 **ITC InterBit** - Cisco Certified Network Associate (CCNA)
-
-## 💼 Professional Experience
-
-### Full Stack Developer | Freelance (2024 - Present)
-- Developing full-stack applications with React, Node.js, and MongoDB
-- Implementing robust RESTful APIs with Express.js and PostgreSQL
-- Collaborating via Agile methodologies, delivering 15+ high-quality solutions
-- Creating responsive interfaces resulting in 20% increase in user satisfaction
-
-### Full Stack Developer | Progeeks LTD (2021-2024)
-- Optimized CRM systems using React, Node.js, and MongoDB
-- Engineered WhatsApp signing solutions reducing operational costs by 20%
-- Spearheaded CI/CD pipeline implementation cutting deployment time by 60%
-- Enhanced team productivity through modern Redux architecture refactoring
-
 ## 🤝 Let's Connect!
 
 I'm always open to discussing new opportunities, collaborating on interesting projects, or just having a chat about technology!
