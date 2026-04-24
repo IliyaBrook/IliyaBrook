@@ -65,37 +65,6 @@ I'm a **Full Stack Developer** based in Tel-Aviv with **4+ years of experience**
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 
-## 🏆 Key Achievements
-
-- 🚀 **Reduced deployment time by 60%** through CI/CD pipeline implementation with Docker, Kubernetes & AWS
-- ⚡ **Improved application load speeds by 50%** by refactoring codebase to Redux architecture
-- 💰 **Achieved 20% reduction in operational costs** with Node.js WhatsApp signing solution
-- 📊 **Enhanced user engagement by 25%** through full-stack web application development
-- 🎯 **Maintained 99%+ application SLAs** ensuring high availability and reliability
-- 🔧 **Improved data exchange efficiency by 30%** with robust RESTful APIs
-
-## 🔥 Featured Projects
-
-### 🤖 [AutoApplyLinkedIn](https://github.com/IliyaBrook/autoApplylinkedin)
-Chrome extension that streamlines job search on LinkedIn by automating Easy Apply applications
-- **Tech Stack:** JavaScript, Chrome Extension API
-- **Features:** Smart filtering, form control, external job link management
-
-### 📄 [AI Resume Builder](https://github.com/IliyaBrook/AI-Resumes-Builder)
-AI-powered resume builder with local creation and management capabilities
-- **Tech Stack:** TypeScript, Hono, Gemini API
-- **Features:** PDF generation, customizable templates, AI enhancement
-
-### 🖼️ [AI Image Detector](https://github.com/IliyaBrook/AiGenImageDetector)
-Advanced tool for detecting AI-generated images
-- **Tech Stack:** TypeScript
-- **Purpose:** Content verification and authenticity checking
-
-### 📝 [Smart Form Fill](https://github.com/IliyaBrook/smart_form_fill)
-Chrome extension for automatically filling web forms with predefined data profiles
-- **Tech Stack:** TypeScript, React, Vite, Tailwind CSS
-- **Features:** Multiple form profiles, secure data storage, file input autofill, automatic field detection
-
 ## 📊 GitHub Stats
 
 ![Iliya's GitHub stats](https://github-readme-stats.vercel.app/api?username=IliyaBrook&show_icons=true&theme=radical&count_private=true&include_all_commits=true&hide=stars,prs,issues,contribs)
