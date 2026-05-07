@@ -15,7 +15,7 @@ Trilingual (EN / RU / HE with RTL), light & dark themes, custom Geist + Heebo fo
 
 ```bash
 pnpm install
-pnpm dev       # http://localhost:5173
+pnpm dev       # http://localhost:3000
 pnpm build     # tsc -b + vite build → dist/
 pnpm preview   # serve the production build
 pnpm lint

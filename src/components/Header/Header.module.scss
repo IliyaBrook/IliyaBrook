@@ -8,6 +8,7 @@
   border-bottom: 1px solid var(--border-1);
 
   .inner {
+    position: relative;
     max-width: var(--page-max);
     margin: 0 auto;
     padding: 14px 24px;
@@ -48,6 +49,7 @@
     display: flex;
     gap: 4px;
     flex: 1;
+    margin-inline-start: -12px;
 
     .link {
       background: transparent;
@@ -128,6 +130,17 @@
           border-inline-start: 1px solid var(--border-1);
         }
       }
+    }
+  }
+}
+
+@media (min-width: 1121px) {
+  .header {
+    .brand {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translate(calc((1120px - 100vw) / 2 + 24px), -50%);
     }
   }
 }
