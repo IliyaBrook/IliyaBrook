@@ -1,14 +1,12 @@
-import { useOutletContext } from 'react-router-dom';
 import { PageHead } from '@/components/PageHead';
-import type { LayoutContext } from '@/pages/AboutPage';
+import { SITE_COPY } from '@/i18n/copy';
 import styles from './ResumePage.module.scss';
 
 export function ResumePage() {
-  const { t } = useOutletContext<LayoutContext>();
-  const r = t.resume;
+  const r = SITE_COPY.en.resume;
 
   return (
-    <div className="page-body">
+    <div className="page-body" lang="en" dir="ltr">
       <section className="section">
         <div className="shell narrow">
           <PageHead title={r.heading} sub={r.sub} />
