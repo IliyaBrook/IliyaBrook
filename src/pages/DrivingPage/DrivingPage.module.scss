@@ -1,6 +1,6 @@
 /* DrivingPage (pages/DrivingPage/DrivingPage.tsx)
    <div.list>
-     <a.card>
+     <a.card> | <button.card>
        <div.num>  (also has global "num" tabular utility)
        <div.body>
          <div.name>
@@ -25,6 +25,10 @@
     background: var(--bg-1);
     color: inherit;
     text-decoration: none;
+    text-align: start;
+    font: inherit;
+    cursor: pointer;
+    width: 100%;
     transition: border-color 180ms var(--ease-out);
 
     &:hover {
