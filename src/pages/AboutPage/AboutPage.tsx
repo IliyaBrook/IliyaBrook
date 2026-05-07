@@ -1,6 +1,6 @@
-import { useOutletContext } from 'react-router-dom';
-import { Hero } from '../components/Hero';
-import type { Lang, SiteCopy } from '../i18n/types';
+import { useOutletContext } from "react-router-dom";
+import { Hero } from "../../components/Hero";
+import type { Lang, SiteCopy } from "../../i18n/types";
 
 export type LayoutContext = { t: SiteCopy; lang: Lang };
 

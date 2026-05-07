@@ -1,12 +1,13 @@
-import type { SiteCopy } from '../i18n/types';
-import { GithubIcon, LinkedinIcon } from './Icon';
+import type { SiteCopy } from '../../i18n/types';
+import { GithubIcon, LinkedinIcon } from '../Icon';
+import styles from './Footer.module.scss';
 
 export function Footer({ t }: { t: SiteCopy }) {
   return (
-    <footer className="site-footer">
-      <div className="shell footer-shell">
-        <span className="footer-cr" dir="ltr">{t.footer.copyright}</span>
-        <div className="footer-links">
+    <footer className={styles.footer}>
+      <div className={`shell ${styles.footerShell}`}>
+        <span className={styles.copy} dir="ltr">{t.footer.copyright}</span>
+        <div className={styles.links}>
           <a href="https://github.com/IliyaBrook" target="_blank" rel="noreferrer" aria-label="GitHub">
             <GithubIcon />
           </a>

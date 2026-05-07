@@ -1,9 +1,10 @@
 import { NavLink } from 'react-router-dom';
-import logoDark from '../assets/logos/logo-dark.svg';
-import logoLight from '../assets/logos/logo-light.svg';
-import type { Lang, SiteCopy } from '../i18n/types';
-import type { Theme } from '../hooks/useTheme';
-import { MoonIcon, SunIcon } from './Icon';
+import logoDark from '../../assets/logos/logo-dark.svg';
+import logoLight from '../../assets/logos/logo-light.svg';
+import type { Theme } from '../../hooks/useTheme';
+import type { Lang, SiteCopy } from '../../i18n/types';
+import { MoonIcon, SunIcon } from '../Icon';
+import styles from './Header.module.scss';
 
 type HeaderProps = {
   t: SiteCopy;
@@ -24,37 +25,39 @@ export function Header({ t, lang, setLang, theme, setTheme }: HeaderProps) {
   ];
 
   return (
-    <header className="site-header">
-      <div className="header-inner">
-        <NavLink to="/" className="brand" aria-label="Iliya Brook — home">
-          <img className="brand-dark" src={logoDark} alt="ib." />
-          <img className="brand-light" src={logoLight} alt="ib." />
+    <header className={styles.header}>
+      <div className={styles.inner}>
+        <NavLink to="/" className={styles.brand} aria-label="Iliya Brook — home">
+          <img className={styles.brandDark} src={logoDark} alt="ib." />
+          <img className={styles.brandLight} src={logoLight} alt="ib." />
         </NavLink>
-        <nav className="site-nav" aria-label="Primary">
+        <nav className={styles.nav} aria-label="Primary">
           {items.map((it) => (
             <NavLink
               key={it.to}
               to={it.to}
               end={it.end}
-              className={({ isActive }) => 'navlink' + (isActive ? ' active' : '')}
+              className={({ isActive }) =>
+                styles.link + (isActive ? ' ' + styles.active : '')
+              }
             >
               {it.label}
             </NavLink>
           ))}
         </nav>
-        <div className="tools">
+        <div className={styles.tools}>
           <button
-            className="icon-btn"
+            className={styles.iconBtn}
             onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
             aria-label="Toggle theme"
           >
             {theme === 'dark' ? <SunIcon /> : <MoonIcon />}
           </button>
-          <div className="lang" role="group" aria-label="Language">
+          <div className={styles.lang} role="group" aria-label="Language">
             {LANGS.map((L) => (
               <button
                 key={L}
-                className={lang === L ? 'active' : ''}
+                className={lang === L ? styles.active : ''}
                 onClick={() => setLang(L)}
                 dir="ltr"
               >

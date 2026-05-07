@@ -1,6 +1,7 @@
 import { useOutletContext } from 'react-router-dom';
-import { PageHead } from '../components/PageHead';
-import type { LayoutContext } from './AboutPage';
+import { PageHead } from '../../components/PageHead';
+import type { LayoutContext } from '../AboutPage';
+import styles from './ResumePage.module.scss';
 
 export function ResumePage() {
   const { t } = useOutletContext<LayoutContext>();
@@ -12,11 +13,11 @@ export function ResumePage() {
         <div className="shell narrow">
           <PageHead title={r.heading} sub={r.sub} />
 
-          <div className="resume-contact">
+          <div className={styles.contact}>
             <span dir="ltr">{r.contact.phone}</span>
-            <span className="dot-sep">·</span>
+            <span className={styles.dot}>·</span>
             <a href={'mailto:' + r.contact.email} dir="ltr">{r.contact.email}</a>
-            <span className="dot-sep">·</span>
+            <span className={styles.dot}>·</span>
             <a
               href={'https://' + r.contact.linkedin}
               target="_blank"
@@ -27,22 +28,22 @@ export function ResumePage() {
             </a>
           </div>
 
-          <div className="resume-section">
-            <h3 className="rs-h">{r.sections.experience}</h3>
-            <div className="rs-list">
+          <div className={styles.section}>
+            <h3 className={styles.heading}>{r.sections.experience}</h3>
+            <div className={styles.list}>
               {r.experience.map((j, i) => (
-                <div key={i} className="rs-job">
-                  <div className="rs-job-head">
+                <div key={i} className={styles.job}>
+                  <div className={styles.jobHead}>
                     <div>
-                      <div className="rs-role">{j.role}</div>
-                      <div className="rs-company">
+                      <div className={styles.role}>{j.role}</div>
+                      <div className={styles.company}>
                         <span dir="ltr">{j.company}</span>{' '}
-                        <span className="rs-loc">· {j.loc}</span>
+                        <span className={styles.loc}>· {j.loc}</span>
                       </div>
                     </div>
-                    <div className="rs-period num" dir="ltr">{j.period}</div>
+                    <div className={`${styles.period} num`} dir="ltr">{j.period}</div>
                   </div>
-                  <ul className="rs-bullets">
+                  <ul className={styles.bullets}>
                     {j.bullets.map((b, k) => (
                       <li key={k}>{b}</li>
                     ))}
@@ -52,21 +53,21 @@ export function ResumePage() {
             </div>
           </div>
 
-          <div className="resume-section">
-            <h3 className="rs-h">{r.sections.education}</h3>
-            <div className="rs-edu">
+          <div className={styles.section}>
+            <h3 className={styles.heading}>{r.sections.education}</h3>
+            <div className={styles.edu}>
               {r.education.map((e, i) => (
-                <div key={i} className="rs-edu-row">
-                  <div className="rs-edu-school" dir="ltr">{e.school}</div>
-                  <div className="rs-edu-degree">{e.degree}</div>
+                <div key={i} className={styles.eduRow}>
+                  <div className={styles.school} dir="ltr">{e.school}</div>
+                  <div className={styles.degree}>{e.degree}</div>
                 </div>
               ))}
             </div>
           </div>
 
-          <div className="resume-section">
-            <h3 className="rs-h">{r.sections.skills}</h3>
-            <div className="rs-skills">
+          <div className={styles.section}>
+            <h3 className={styles.heading}>{r.sections.skills}</h3>
+            <div className={styles.skills}>
               {r.skills.map((s) => (
                 <span key={s} className="pill" dir="ltr">{s}</span>
               ))}

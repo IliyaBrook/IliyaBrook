@@ -1,0 +1,32 @@
+/* PageHead (components/PageHead/PageHead.tsx)
+   <div.head>
+     <h1.title>
+     <p.sub>
+   </div>
+*/
+.head {
+  margin-bottom: 48px;
+  padding-top: 64px;
+
+  .title {
+    font-size: clamp(40px, 6vw, 64px);
+    line-height: 1.05;
+    letter-spacing: -0.025em;
+    font-weight: 600;
+    margin: 0 0 12px;
+  }
+
+  .sub {
+    font-size: 17px;
+    line-height: 1.6;
+    color: var(--fg-1);
+    max-width: 60ch;
+    margin: 0;
+  }
+}
+
+@media (max-width: 880px) {
+  .head {
+    padding-top: 32px;
+  }
+}

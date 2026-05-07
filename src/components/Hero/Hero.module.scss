@@ -1,0 +1,85 @@
+/* Hero (components/Hero/Hero.tsx)
+   <section.hero>
+     <div.shell>
+       <div.eyebrow><bdi></div>
+       <h1>
+       <p.tagline>
+       <div.meta>
+         <span.item><span.lbl></span>
+       </div>
+     </div>
+   </section>
+*/
+.hero {
+  position: relative;
+  padding: 96px 0 72px;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    position: absolute;
+    inset: -20% -10% auto -10%;
+    height: 70vh;
+    background: var(--hero-grad);
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  // child .shell wrapper sits above the gradient layer
+  :global(.shell) {
+    position: relative;
+    z-index: 1;
+  }
+
+  .eyebrow {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    color: var(--fg-2);
+    letter-spacing: 0.04em;
+    margin-bottom: 28px;
+  }
+
+  h1 {
+    font-size: clamp(56px, 9vw, 112px);
+    line-height: 0.98;
+    letter-spacing: -0.03em;
+    font-weight: 600;
+    margin: 0 0 28px;
+    color: var(--fg-0);
+  }
+
+  .tagline {
+    font-size: clamp(18px, 2.2vw, 24px);
+    line-height: 1.5;
+    color: var(--fg-1);
+    max-width: 50ch;
+    margin: 0 0 40px;
+    letter-spacing: -0.005em;
+  }
+
+  .meta {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 28px;
+
+    .item {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-family: var(--font-mono);
+      font-size: 13px;
+      color: var(--fg-1);
+
+      .lbl {
+        color: var(--fg-2);
+      }
+    }
+  }
+}
+
+@media (max-width: 880px) {
+  .hero {
+    padding: 64px 0 48px;
+  }
+}
