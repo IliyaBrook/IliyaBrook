@@ -175,6 +175,13 @@ export const SITE_COPY: Record<Lang, SiteCopy> = {
         "Git",
       ],
     },
+    modal: {
+      close: "Close",
+      inDev: {
+        title: "In development",
+        message: "This section is still being built. Please check back soon.",
+      },
+    },
     footer: { copyright: "© 2026 Iliya Brook" },
   },
 
@@ -349,6 +356,13 @@ export const SITE_COPY: Record<Lang, SiteCopy> = {
         "Git",
       ],
     },
+    modal: {
+      close: "Закрыть",
+      inDev: {
+        title: "В разработке",
+        message: "Этот раздел ещё в разработке. Загляните чуть позже.",
+      },
+    },
     footer: { copyright: "© 2026 Илья Брук" },
   },
 
@@ -522,6 +536,13 @@ export const SITE_COPY: Record<Lang, SiteCopy> = {
         "Go",
         "Git",
       ],
+    },
+    modal: {
+      close: "סגור",
+      inDev: {
+        title: "בפיתוח",
+        message: "החלק הזה עדיין בפיתוח. נסו שוב בקרוב.",
+      },
     },
     footer: { copyright: "© 2026 איליה ברוק" },
   },

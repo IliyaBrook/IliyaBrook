@@ -70,5 +70,9 @@ export type SiteCopy = {
     experience: Job[];
     skills: string[];
   };
+  modal: {
+    close: string;
+    inDev: { title: string; message: string };
+  };
   footer: { copyright: string };
 };
