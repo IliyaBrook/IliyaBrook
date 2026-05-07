@@ -22,6 +22,7 @@
     align-items: center;
     flex-shrink: 0;
     color: var(--fg-0);
+    transform: translateX(min(0px, calc((var(--page-max) - 100vw) / 2)));
 
     img {
       display: block;
