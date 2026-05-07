@@ -1,0 +1,226 @@
+/* iliyabrook.com — Foundations
+   Self-hosted webfonts live in /assets/fonts and are declared in /styles/fonts.css.
+   Import order in pages: fonts.css → colors_and_type.scss → site.scss. */
+
+:root {
+  /* ===== COLOR — DARK (default) ===== */
+  --bg-0: #0a0a0a; /* page surface, near-black */
+  --bg-1: #111113; /* raised surface (subtle) */
+  --bg-2: #16171a; /* card / input bg */
+
+  --fg-0: #f5f4ee; /* warm off-white, primary text */
+  --fg-1: #c9c6bd; /* secondary text */
+  --fg-2: #9c998f; /* muted text, mono labels */
+  --fg-3: #5a5852; /* disabled / decorative */
+
+  --border-1: rgba(255, 255, 255, 0.08); /* default 1px borders */
+  --border-2: rgba(255, 255, 255, 0.16); /* hover state borders */
+  --border-3: rgba(255, 255, 255, 0.04); /* faintest divider */
+
+  --accent: #8b7fff; /* single restrained violet accent */
+  --accent-soft: rgba(139, 127, 255, 0.16);
+  --accent-glow: rgba(139, 127, 255, 0.3);
+
+  --success: #4ade80; /* availability dot only */
+  --danger: #f87171;
+
+  --hero-grad: radial-gradient(
+    80% 50% at 50% -10%,
+    rgba(139, 127, 255, 0.22) 0%,
+    rgba(139, 127, 255, 0.08) 35%,
+    rgba(10, 10, 10, 0) 70%
+  );
+
+  /* ===== TYPOGRAPHY ===== */
+  --font-sans: 'Geist', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'Geist Mono', ui-monospace, 'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace;
+  --font-he: 'Heebo', 'Geist', system-ui, sans-serif;
+
+  /* type scale */
+  --t-display: clamp(56px, 9vw, 96px);
+  --t-h1: clamp(40px, 6vw, 64px);
+  --t-h2: 32px;
+  --t-h3: 24px;
+  --t-body-lg: 18px;
+  --t-body: 16px;
+  --t-body-sm: 14px;
+  --t-mono: 13px;
+  --t-mono-sm: 12px;
+  --t-eyebrow: 11px;
+
+  /* line heights */
+  --lh-display: 1.02;
+  --lh-heading: 1.15;
+  --lh-body: 1.6;
+  --lh-tight: 1.4;
+
+  /* tracking */
+  --tr-display: -0.025em;
+  --tr-heading: -0.015em;
+  --tr-body: 0em;
+  --tr-eyebrow: 0.12em;
+  --tr-mono: 0em;
+
+  /* ===== SPACING (4px base) ===== */
+  --s-1: 4px;
+  --s-2: 8px;
+  --s-3: 12px;
+  --s-4: 16px;
+  --s-5: 24px;
+  --s-6: 32px;
+  --s-7: 48px;
+  --s-8: 64px;
+  --s-9: 96px;
+  --s-10: 128px;
+
+  /* ===== RADII ===== */
+  --r-sm: 4px;
+  --r-md: 8px;
+  --r-lg: 12px;
+  --r-pill: 999px;
+
+  /* ===== ELEVATION (only menus) ===== */
+  --shadow-menu: 0 8px 24px rgba(0, 0, 0, 0.4), 0 0 0 1px var(--border-1);
+
+  /* ===== MOTION ===== */
+  --ease-out: cubic-bezier(0.2, 0, 0, 1);
+  --t-fast: 120ms;
+  --t-base: 180ms;
+
+  /* ===== LAYOUT ===== */
+  --prose-w: 60ch;
+  --page-max: 1120px;
+  --gutter: max(16px, calc((100vw - var(--page-max)) / 2));
+
+  /* Light mode override */
+  &[data-theme='light'] {
+    --bg-0: #fafafa;
+    --bg-1: #f2f2f0;
+    --bg-2: #ffffff;
+    --fg-0: #111113;
+    --fg-1: #4a4842;
+    --fg-2: #7a776f;
+    --fg-3: #b8b5ac;
+    --border-1: rgba(0, 0, 0, 0.08);
+    --border-2: rgba(0, 0, 0, 0.18);
+    --border-3: rgba(0, 0, 0, 0.04);
+    --hero-grad: radial-gradient(
+      80% 50% at 50% -10%,
+      rgba(139, 127, 255, 0.18) 0%,
+      rgba(139, 127, 255, 0.06) 35%,
+      rgba(250, 250, 250, 0) 70%
+    );
+  }
+}
+
+/* ===== SEMANTIC ELEMENT STYLES ===== */
+html,
+body {
+  background: var(--bg-0);
+  color: var(--fg-0);
+  font-family: var(--font-sans);
+  font-size: var(--t-body);
+  line-height: var(--lh-body);
+  letter-spacing: var(--tr-body);
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: 'ss01', 'cv11';
+}
+
+:lang(he) {
+  font-family: var(--font-he);
+}
+
+[dir='rtl'] {
+  font-family: var(--font-he);
+}
+
+h1,
+.h1 {
+  font-size: var(--t-h1);
+  line-height: var(--lh-display);
+  letter-spacing: var(--tr-display);
+  font-weight: 600;
+  margin: 0;
+}
+
+h2,
+.h2 {
+  font-size: var(--t-h2);
+  line-height: var(--lh-heading);
+  letter-spacing: var(--tr-heading);
+  font-weight: 600;
+  margin: 0;
+}
+
+h3,
+.h3 {
+  font-size: var(--t-h3);
+  line-height: var(--lh-heading);
+  letter-spacing: var(--tr-heading);
+  font-weight: 500;
+  margin: 0;
+}
+
+p {
+  margin: 0 0 var(--s-4);
+  color: var(--fg-1);
+}
+
+.display {
+  font-size: var(--t-display);
+  line-height: var(--lh-display);
+  letter-spacing: var(--tr-display);
+  font-weight: 600;
+  color: var(--fg-0);
+}
+
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: var(--t-eyebrow);
+  letter-spacing: var(--tr-eyebrow);
+  text-transform: uppercase;
+  color: var(--fg-2);
+}
+
+code,
+kbd,
+samp,
+.mono {
+  font-family: var(--font-mono);
+  font-size: var(--t-mono);
+  font-feature-settings: 'tnum', 'zero';
+}
+
+.num {
+  font-variant-numeric: tabular-nums slashed-zero;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: color var(--t-fast) var(--ease-out);
+
+  &:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--accent);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+    border-radius: var(--r-sm);
+  }
+}
+
+button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: var(--r-sm);
+}
+
+::selection {
+  background: var(--accent-soft);
+  color: var(--fg-0);
+}
