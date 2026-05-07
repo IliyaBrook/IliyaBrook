@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
-import { SITE_COPY } from '../i18n/copy';
-import type { Lang, SiteCopy } from '../i18n/types';
+import { SITE_COPY } from '@/i18n/copy';
+import type { Lang, SiteCopy } from '@/i18n/types';
 
 const KEY = 'iliyabrook.lang';
 

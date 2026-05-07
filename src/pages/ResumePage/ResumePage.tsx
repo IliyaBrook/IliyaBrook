@@ -1,6 +1,6 @@
 import { useOutletContext } from 'react-router-dom';
-import { PageHead } from '../../components/PageHead';
-import type { LayoutContext } from '../AboutPage';
+import { PageHead } from '@/components/PageHead';
+import type { LayoutContext } from '@/pages/AboutPage';
 import styles from './ResumePage.module.scss';
 
 export function ResumePage() {

@@ -1,7 +1,7 @@
 import { useOutletContext } from 'react-router-dom';
-import { ArrowIcon, ForkIcon, StarIcon } from '../../components/Icon';
-import { PageHead } from '../../components/PageHead';
-import type { LayoutContext } from '../AboutPage';
+import { ArrowIcon, ForkIcon, StarIcon } from '@/components/Icon';
+import { PageHead } from '@/components/PageHead';
+import type { LayoutContext } from '@/pages/AboutPage';
 import styles from './ProjectsPage.module.scss';
 
 export function ProjectsPage() {

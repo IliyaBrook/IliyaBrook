@@ -1,7 +1,7 @@
 import { useOutletContext } from 'react-router-dom';
-import { ArrowIcon } from '../../components/Icon';
-import { PageHead } from '../../components/PageHead';
-import type { LayoutContext } from '../AboutPage';
+import { ArrowIcon } from '@/components/Icon';
+import { PageHead } from '@/components/PageHead';
+import type { LayoutContext } from '@/pages/AboutPage';
 import styles from './DrivingPage.module.scss';
 
 export function DrivingPage() {

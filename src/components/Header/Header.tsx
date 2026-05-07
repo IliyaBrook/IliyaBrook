@@ -1,9 +1,9 @@
 import { NavLink } from 'react-router-dom';
-import logoDark from '../../assets/logos/logo-dark.svg';
-import logoLight from '../../assets/logos/logo-light.svg';
-import type { Theme } from '../../hooks/useTheme';
-import type { Lang, SiteCopy } from '../../i18n/types';
-import { MoonIcon, SunIcon } from '../Icon';
+import logoDark from '@/assets/logos/logo-dark.svg';
+import logoLight from '@/assets/logos/logo-light.svg';
+import { MoonIcon, SunIcon } from '@/components/Icon';
+import type { Theme } from '@/hooks/useTheme';
+import type { Lang, SiteCopy } from '@/i18n/types';
 import styles from './Header.module.scss';
 
 type HeaderProps = {

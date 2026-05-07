@@ -1,22 +1,3 @@
-/* Header (components/Header/Header.tsx)
-   <header.header>
-     <div.inner>
-       <NavLink.brand>
-         <img.brandDark>
-         <img.brandLight>
-       </NavLink>
-       <nav.nav>
-         <NavLink.link (.active)> ...
-       </nav>
-       <div.tools>
-         <button.iconBtn>
-         <div.lang>
-           <button (.active)>
-         </div>
-       </div>
-     </div>
-   </header>
-*/
 .header {
   position: sticky;
   top: 0;
@@ -52,7 +33,7 @@
       display: none;
     }
 
-    :global([data-theme='light']) & {
+    :global([data-theme="light"]) & {
       .brandDark {
         display: none;
       }

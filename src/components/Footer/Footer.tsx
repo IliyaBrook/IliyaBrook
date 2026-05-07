@@ -1,5 +1,5 @@
-import type { SiteCopy } from '../../i18n/types';
-import { GithubIcon, LinkedinIcon } from '../Icon';
+import { GithubIcon, LinkedinIcon } from '@/components/Icon';
+import type { SiteCopy } from '@/i18n/types';
 import styles from './Footer.module.scss';
 
 export function Footer({ t }: { t: SiteCopy }) {

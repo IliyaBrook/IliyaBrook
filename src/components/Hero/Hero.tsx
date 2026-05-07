@@ -1,4 +1,4 @@
-import type { SiteCopy } from '../../i18n/types';
+import type { SiteCopy } from '@/i18n/types';
 import styles from './Hero.module.scss';
 
 export function Hero({ t }: { t: SiteCopy }) {
