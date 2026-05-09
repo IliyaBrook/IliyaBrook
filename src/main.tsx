@@ -1,14 +1,14 @@
-import { StrictMode } from 'react';
-import { createRoot } from 'react-dom/client';
-import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
-import App from './App.tsx';
-import './index.css';
-import { AboutPage } from './pages/AboutPage';
-import { DrivingPage } from './pages/DrivingPage';
-import { ProjectsPage } from './pages/ProjectsPage';
-import { ResumePage } from './pages/ResumePage';
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+import App from "./App.tsx";
+import "./index.css";
+import { AboutPage } from "./pages/AboutPage";
+import { DrivingPage } from "./pages/DrivingPage";
+import { ProjectsPage } from "./pages/ProjectsPage";
+import { ResumePage } from "./pages/ResumePage";
 
-createRoot(document.getElementById('root')!).render(
+createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <BrowserRouter>
       <Routes>
@@ -23,3 +23,5 @@ createRoot(document.getElementById('root')!).render(
     </BrowserRouter>
   </StrictMode>,
 );
+
+//  deploy test
