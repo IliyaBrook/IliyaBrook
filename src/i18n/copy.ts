@@ -82,7 +82,7 @@ export const SITE_COPY: Record<Lang, SiteCopy> = {
       heading: "Resume",
       sub: "Iliya Brook · Frontend / full-stack developer · Tel-Aviv, Israel",
       contact: {
-        phone: "+972 54 930 3336",
+        phone: "+972-54-930-3336",
         email: "iliyabrook1987@gmail.com",
         linkedin: "linkedin.com/in/iliya-brook",
       },
@@ -266,7 +266,7 @@ export const SITE_COPY: Record<Lang, SiteCopy> = {
       heading: "Резюме",
       sub: "Илья Брук · фронтенд / фул‑стек разработчик · Тель‑Авив",
       contact: {
-        phone: "+972 54 930 3336",
+        phone: "+972-54-930-3336",
         email: "iliyabrook1987@gmail.com",
         linkedin: "linkedin.com/in/iliya-brook",
       },
@@ -447,7 +447,7 @@ export const SITE_COPY: Record<Lang, SiteCopy> = {
       heading: "קורות חיים",
       sub: "איליה ברוק · מפתח פרונטאנד / פול‑סטאק · תל‑אביב",
       contact: {
-        phone: "+972 54 930 3336",
+        phone: "+972-54-930-3336",
         email: "iliyabrook1987@gmail.com",
         linkedin: "linkedin.com/in/iliya-brook",
       },
