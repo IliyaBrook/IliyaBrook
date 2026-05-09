@@ -13,9 +13,9 @@ export const SITE_COPY: Record<Lang, SiteCopy> = {
       eyebrow: "IliyaBrook · github.com/IliyaBrook",
       name: "Iliya Brook.",
       tagline:
-        "Frontend / full-stack developer based in Tel-Aviv. I work in React, Next.js and Node.js.",
+        "Full-stack developer based in Tel-Aviv. I work in React, Next.js and Node.js.",
       location: "Tel‑Aviv, Israel",
-      role: "frontend / full-stack",
+      role: "Full Stack Developer",
     },
     sections: {
       about: "ABOUT",
@@ -80,7 +80,7 @@ export const SITE_COPY: Record<Lang, SiteCopy> = {
     },
     resume: {
       heading: "Resume",
-      sub: "Iliya Brook · Frontend / full-stack developer · Tel-Aviv, Israel",
+      sub: "Iliya Brook · Full Stack Developer · Tel-Aviv, Israel",
       contact: {
         phone: "+972-54-930-3336",
         email: "iliyabrook1987@gmail.com",
