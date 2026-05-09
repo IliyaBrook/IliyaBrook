@@ -8,8 +8,8 @@ import styles from './DrivingPage.module.scss';
 
 const COURSE_URLS: (string | null)[] = [
   'https://correct-driving.iliyabrook.com',
-  null,
-  null,
+  'https://loading-and-unloading.iliyabrook.com',
+  'https://road-accidents.iliyabrook.com',
 ];
 
 export function DrivingPage() {
