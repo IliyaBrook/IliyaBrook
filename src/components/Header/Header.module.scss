@@ -23,7 +23,6 @@
     align-items: center;
     flex-shrink: 0;
     color: var(--fg-0);
-    transform: translateX(min(0px, calc((var(--page-max) - 100vw) / 2)));
 
     img {
       display: block;
@@ -140,13 +139,17 @@
   }
 }
 
-@media (min-width: 1240px) {
+@media (min-width: 1500px) {
   .header {
     .brand {
       position: absolute;
-      left: 0;
+      inset-inline-start: 0;
       top: 50%;
       transform: translate(calc((1120px - 100vw) / 2 + 24px), -50%);
+
+      :global([dir="rtl"]) & {
+        transform: translate(calc((100vw - 1120px) / 2 - 24px), -50%);
+      }
     }
   }
 }
