@@ -1,22 +1,10 @@
-/* Hero (components/Hero/Hero.tsx)
-   <section.hero>
-     <div.shell>
-       <div.eyebrow><bdi></div>
-       <h1>
-       <p.tagline>
-       <div.meta>
-         <span.item><span.lbl></span>
-       </div>
-     </div>
-   </section>
-*/
 .hero {
   position: relative;
   padding: 96px 0 72px;
   overflow: hidden;
 
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     inset: -20% -10% auto -10%;
     height: 70vh;
