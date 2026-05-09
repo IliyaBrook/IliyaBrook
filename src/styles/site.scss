@@ -16,9 +16,9 @@ body {
   color: var(--fg-0);
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
-  font-feature-settings: 'ss01', 'cv11';
+  font-feature-settings: "ss01", "cv11";
 
-  [dir='rtl'] & {
+  [dir="rtl"] & {
     font-family: var(--font-he);
   }
 }
@@ -50,7 +50,6 @@ body {
 
 /* Page section wrapper; used in every page TSX */
 .section {
-  padding: 32px 0 96px;
   flex: 1;
 }
 
