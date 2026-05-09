@@ -1,10 +1,10 @@
-import { NavLink } from 'react-router-dom';
-import logoDark from '@/assets/logos/logo-dark.svg';
-import logoLight from '@/assets/logos/logo-light.svg';
-import { MoonIcon, SunIcon } from '@/components/Icon';
-import type { Theme } from '@/hooks/useTheme';
-import type { Lang, SiteCopy } from '@/i18n/types';
-import styles from './Header.module.scss';
+import { NavLink } from "react-router-dom";
+import logoDark from "@/assets/logos/logo-dark-35-8.svg";
+import logoLight from "@/assets/logos/logo-light-35-8.svg";
+import { MoonIcon, SunIcon } from "@/components/Icon";
+import type { Theme } from "@/hooks/useTheme";
+import type { Lang, SiteCopy } from "@/i18n/types";
+import styles from "./Header.module.scss";
 
 type HeaderProps = {
   t: SiteCopy;
@@ -14,20 +14,24 @@ type HeaderProps = {
   setTheme: (t: Theme) => void;
 };
 
-const LANGS: Lang[] = ['en', 'ru', 'he'];
+const LANGS: Lang[] = ["en", "ru", "he"];
 
 export function Header({ t, lang, setLang, theme, setTheme }: HeaderProps) {
   const items = [
-    { to: '/', label: t.nav.about, end: true },
-    { to: '/projects', label: t.nav.projects, end: false },
-    { to: '/driving', label: t.nav.driving, end: false },
-    { to: '/resume', label: t.nav.resume, end: false },
+    { to: "/", label: t.nav.about, end: true },
+    { to: "/projects", label: t.nav.projects, end: false },
+    { to: "/driving", label: t.nav.driving, end: false },
+    { to: "/resume", label: t.nav.resume, end: false },
   ];
 
   return (
     <header className={styles.header}>
       <div className={styles.inner}>
-        <NavLink to="/" className={styles.brand} aria-label="Iliya Brook — home">
+        <NavLink
+          to="/"
+          className={styles.brand}
+          aria-label="Iliya Brook — home"
+        >
           <img className={styles.brandDark} src={logoDark} alt="ib." />
           <img className={styles.brandLight} src={logoLight} alt="ib." />
         </NavLink>
@@ -38,7 +42,7 @@ export function Header({ t, lang, setLang, theme, setTheme }: HeaderProps) {
               to={it.to}
               end={it.end}
               className={({ isActive }) =>
-                styles.link + (isActive ? ' ' + styles.active : '')
+                styles.link + (isActive ? " " + styles.active : "")
               }
             >
               {it.label}
@@ -48,16 +52,16 @@ export function Header({ t, lang, setLang, theme, setTheme }: HeaderProps) {
         <div className={styles.tools}>
           <button
             className={styles.iconBtn}
-            onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
+            onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
             aria-label="Toggle theme"
           >
-            {theme === 'dark' ? <SunIcon /> : <MoonIcon />}
+            {theme === "dark" ? <SunIcon /> : <MoonIcon />}
           </button>
           <div className={styles.lang} role="group" aria-label="Language">
             {LANGS.map((L) => (
               <button
                 key={L}
-                className={lang === L ? styles.active : ''}
+                className={lang === L ? styles.active : ""}
                 onClick={() => setLang(L)}
                 dir="ltr"
               >

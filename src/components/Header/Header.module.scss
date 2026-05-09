@@ -27,7 +27,7 @@
 
     img {
       display: block;
-      height: 18px;
+      height: 35px;
       width: auto;
     }
 
@@ -41,6 +41,12 @@
       }
       .brandLight {
         display: block;
+      }
+    }
+
+    @media (max-width: 880px) {
+      img {
+        height: 25px;
       }
     }
   }
