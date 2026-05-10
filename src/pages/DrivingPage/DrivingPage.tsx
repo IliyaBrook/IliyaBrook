@@ -7,9 +7,9 @@ import type { LayoutContext } from '@/pages/AboutPage';
 import styles from './DrivingPage.module.scss';
 
 const COURSE_URLS: (string | null)[] = [
-  'https://correct-driving.iliyabrook.com',
-  'https://loading-and-unloading.iliyabrook.com',
-  'https://road-accidents.iliyabrook.com',
+  'https://correct-driving-test.vercel.app/',
+  'https://loading-and-unloading.vercel.app/',
+  'https://road-accidents-kappa.vercel.app',
 ];
 
 export function DrivingPage() {
