@@ -32,8 +32,20 @@ export function Header({ t, lang, setLang, theme, setTheme }: HeaderProps) {
           className={styles.brand}
           aria-label="Iliya Brook — home"
         >
-          <img className={styles.brandDark} src={logoDark} alt="ib." />
-          <img className={styles.brandLight} src={logoLight} alt="ib." />
+          <img
+            className={styles.brandDark}
+            src={logoDark}
+            alt="ib."
+            width={153}
+            height={35}
+          />
+          <img
+            className={styles.brandLight}
+            src={logoLight}
+            alt="ib."
+            width={153}
+            height={35}
+          />
         </NavLink>
         <nav className={styles.nav} aria-label="Primary">
           {items.map((it) => (

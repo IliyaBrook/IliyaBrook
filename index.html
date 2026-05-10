@@ -15,6 +15,22 @@
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#0a0a0a" />
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem('iliyabrook.theme');
+          if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t;
+          var l = localStorage.getItem('iliyabrook.lang');
+          if (!l) {
+            var n = (navigator.language || 'en').toLowerCase();
+            l = n.indexOf('ru') === 0 ? 'ru' : (n.indexOf('he') === 0 || n.indexOf('iw') === 0) ? 'he' : 'en';
+          }
+          document.documentElement.lang = l;
+          document.documentElement.dir = l === 'he' ? 'rtl' : 'ltr';
+        } catch (e) {}
+      })();
+    </script>
+    <link rel="preload" as="font" type="font/woff2" href="/fonts/Geist-400-latin.woff2" crossorigin />
     <title>Iliya Brook — Full Stack Developer</title>
     <meta name="description" content="Full-stack developer" />
     <meta name="author" content="Iliya Brook" />
