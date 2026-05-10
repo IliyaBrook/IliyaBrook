@@ -2,15 +2,15 @@ export type Lang = 'en' | 'ru' | 'he';
 
 export type ProjectStats = {
   repo: string;
+  url: string;
   desc: string;
   tags: string[];
   stats: true;
-  stars: number;
-  forks: number;
 };
 
 export type ProjectLive = {
   repo: string;
+  url: string;
   desc: string;
   tags: string[];
   stats: false;
