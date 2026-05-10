@@ -29,8 +29,7 @@
 
 /* ===== Text element rules ===== */
 
-h1,
-.h1 {
+h1 {
   font-size: var(--t-h1);
   line-height: var(--lh-display);
   letter-spacing: var(--tr-display);
@@ -38,8 +37,7 @@ h1,
   margin: 0;
 }
 
-h2,
-.h2 {
+h2 {
   font-size: var(--t-h2);
   line-height: var(--lh-heading);
   letter-spacing: var(--tr-heading);
@@ -47,8 +45,7 @@ h2,
   margin: 0;
 }
 
-h3,
-.h3 {
+h3 {
   font-size: var(--t-h3);
   line-height: var(--lh-heading);
   letter-spacing: var(--tr-heading);
@@ -59,31 +56,6 @@ h3,
 p {
   margin: 0 0 var(--s-4);
   color: var(--fg-1);
-}
-
-.display {
-  font-size: var(--t-display);
-  line-height: var(--lh-display);
-  letter-spacing: var(--tr-display);
-  font-weight: 600;
-  color: var(--fg-0);
-}
-
-.eyebrow {
-  font-family: var(--font-mono), monospace;
-  font-size: var(--t-eyebrow);
-  letter-spacing: var(--tr-eyebrow);
-  text-transform: uppercase;
-  color: var(--fg-2);
-}
-
-code,
-kbd,
-samp,
-.mono {
-  font-family: var(--font-mono), monospace;
-  font-size: var(--t-mono);
-  font-feature-settings: 'tnum', 'zero';
 }
 
 .num {
