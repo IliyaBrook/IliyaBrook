@@ -1,0 +1,91 @@
+/* ===== Typography tokens + text element rules ===== */
+
+:root {
+  /* ===== SIZE SCALE ===== */
+  --t-display: clamp(56px, 9vw, 96px);
+  --t-h1: clamp(40px, 6vw, 64px);
+  --t-h2: 32px;
+  --t-h3: 24px;
+  --t-body-lg: 18px;
+  --t-body: 16px;
+  --t-body-sm: 14px;
+  --t-mono: 13px;
+  --t-mono-sm: 12px;
+  --t-eyebrow: 11px;
+
+  /* ===== LINE HEIGHTS ===== */
+  --lh-display: 1.02;
+  --lh-heading: 1.15;
+  --lh-body: 1.6;
+  --lh-tight: 1.4;
+
+  /* ===== TRACKING (letter-spacing) ===== */
+  --tr-display: -0.025em;
+  --tr-heading: -0.015em;
+  --tr-body: 0em;
+  --tr-eyebrow: 0.12em;
+  --tr-mono: 0em;
+}
+
+/* ===== Text element rules ===== */
+
+h1,
+.h1 {
+  font-size: var(--t-h1);
+  line-height: var(--lh-display);
+  letter-spacing: var(--tr-display);
+  font-weight: 600;
+  margin: 0;
+}
+
+h2,
+.h2 {
+  font-size: var(--t-h2);
+  line-height: var(--lh-heading);
+  letter-spacing: var(--tr-heading);
+  font-weight: 600;
+  margin: 0;
+}
+
+h3,
+.h3 {
+  font-size: var(--t-h3);
+  line-height: var(--lh-heading);
+  letter-spacing: var(--tr-heading);
+  font-weight: 500;
+  margin: 0;
+}
+
+p {
+  margin: 0 0 var(--s-4);
+  color: var(--fg-1);
+}
+
+.display {
+  font-size: var(--t-display);
+  line-height: var(--lh-display);
+  letter-spacing: var(--tr-display);
+  font-weight: 600;
+  color: var(--fg-0);
+}
+
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: var(--t-eyebrow);
+  letter-spacing: var(--tr-eyebrow);
+  text-transform: uppercase;
+  color: var(--fg-2);
+}
+
+code,
+kbd,
+samp,
+.mono {
+  font-family: var(--font-mono);
+  font-size: var(--t-mono);
+  font-feature-settings: 'tnum', 'zero';
+}
+
+.num {
+  font-variant-numeric: tabular-nums slashed-zero;
+}
