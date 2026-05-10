@@ -9,7 +9,7 @@ body {
   margin: 0;
   background: var(--bg-0);
   color: var(--fg-0);
-  font-family: var(--font-sans);
+  font-family: var(--font-sans), serif;
   font-size: var(--t-body);
   line-height: var(--lh-body);
   letter-spacing: var(--tr-body);
@@ -19,7 +19,7 @@ body {
 
 :lang(he),
 [dir='rtl'] {
-  font-family: var(--font-he);
+  font-family: var(--font-he), serif;
 }
 
 a {
