@@ -6,7 +6,7 @@
   margin: -32px 0 56px;
   padding-bottom: 24px;
   border-bottom: 1px solid var(--border-1);
-  font-family: var(--font-mono);
+  font-family: var(--font-mono), monospace;
   font-size: 13px;
   color: var(--fg-1);
 
@@ -22,7 +22,7 @@
     margin: 0 0 24px;
     padding-bottom: 12px;
     border-bottom: 1px solid var(--border-1);
-    font-family: var(--font-mono);
+    font-family: var(--font-mono), monospace;
     font-size: 12px;
     font-weight: 500;
     letter-spacing: 0.12em;
@@ -62,7 +62,7 @@
 
         .period {
           padding-top: 4px;
-          font-family: var(--font-mono);
+          font-family: var(--font-mono), monospace;
           font-size: 12px;
           color: var(--fg-2);
           white-space: nowrap;

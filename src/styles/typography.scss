@@ -70,7 +70,7 @@ p {
 }
 
 .eyebrow {
-  font-family: var(--font-mono);
+  font-family: var(--font-mono), monospace;
   font-size: var(--t-eyebrow);
   letter-spacing: var(--tr-eyebrow);
   text-transform: uppercase;
@@ -81,7 +81,7 @@ code,
 kbd,
 samp,
 .mono {
-  font-family: var(--font-mono);
+  font-family: var(--font-mono), monospace;
   font-size: var(--t-mono);
   font-feature-settings: 'tnum', 'zero';
 }

@@ -31,7 +31,7 @@
       gap: 12px;
 
       .name {
-        font-family: var(--font-mono);
+        font-family: var(--font-mono), monospace;
         font-size: 17px;
         font-weight: 500;
         color: var(--fg-0);
@@ -70,7 +70,7 @@
       .stats {
         display: inline-flex;
         gap: 16px;
-        font-family: var(--font-mono);
+        font-family: var(--font-mono), monospace;
         font-size: 12px;
         color: var(--fg-2);
         font-variant-numeric: tabular-nums;
@@ -83,7 +83,7 @@
       }
 
       .live {
-        font-family: var(--font-mono);
+        font-family: var(--font-mono), monospace;
         font-size: 12px;
         color: var(--accent);
       }
