@@ -34,22 +34,21 @@ export const SITE_COPY: Record<Lang, SiteCopy> = {
       list: [
         {
           repo: "figma-linux",
+          url: "https://github.com/IliyaBrook/figma-linux",
           desc: "Unofficial Figma desktop client for Linux. Electron repackage with X11 / Wayland support.",
           tags: ["electron", "typescript", "linux"],
           stats: true,
-          stars: 8240,
-          forks: 412,
         },
         {
           repo: "InstantVoiceTranslate",
+          url: "https://github.com/IliyaBrook/InstantVoiceTranslate",
           desc: "Android real-time voice translator. On-device ASR (Sherpa-ONNX) + offline NLLB-200 translation.",
           tags: ["kotlin", "compose", "onnx"],
           stats: true,
-          stars: 96,
-          forks: 8,
         },
         {
           repo: "nika_brook",
+          url: "https://veronikabrook.com",
           desc: "Personal site for opera singer Veronika Brook. Live at veronikabrook.com.",
           tags: ["next.js", "react", "typescript"],
           stats: false,
@@ -218,22 +217,21 @@ export const SITE_COPY: Record<Lang, SiteCopy> = {
       list: [
         {
           repo: "figma-linux",
+          url: "https://github.com/IliyaBrook/figma-linux",
           desc: "Неофициальный Figma desktop‑клиент для Linux. Electron‑репак с поддержкой X11 / Wayland.",
           tags: ["electron", "typescript", "linux"],
           stats: true,
-          stars: 8240,
-          forks: 412,
         },
         {
           repo: "InstantVoiceTranslate",
+          url: "https://github.com/IliyaBrook/InstantVoiceTranslate",
           desc: "Android‑переводчик голоса в реальном времени. ASR на устройстве (Sherpa‑ONNX) + офлайн NLLB‑200.",
           tags: ["kotlin", "compose", "onnx"],
           stats: true,
-          stars: 96,
-          forks: 8,
         },
         {
           repo: "nika_brook",
+          url: "https://veronikabrook.com",
           desc: "Сайт оперной певицы Вероники Брук. В продакшене — veronikabrook.com.",
           tags: ["next.js", "react", "typescript"],
           stats: false,
@@ -399,22 +397,21 @@ export const SITE_COPY: Record<Lang, SiteCopy> = {
       list: [
         {
           repo: "figma-linux",
+          url: "https://github.com/IliyaBrook/figma-linux",
           desc: "לקוח דסקטופ של Figma ללינוקס. אריזה מחדש של Electron עם תמיכה ב‑X11 / Wayland.",
           tags: ["electron", "typescript", "linux"],
           stats: true,
-          stars: 8240,
-          forks: 412,
         },
         {
           repo: "InstantVoiceTranslate",
+          url: "https://github.com/IliyaBrook/InstantVoiceTranslate",
           desc: "מתרגם קול בזמן אמת לאנדרואיד. זיהוי דיבור על המכשיר (Sherpa‑ONNX) + תרגום אופליין NLLB‑200.",
           tags: ["kotlin", "compose", "onnx"],
           stats: true,
-          stars: 96,
-          forks: 8,
         },
         {
           repo: "nika_brook",
+          url: "https://veronikabrook.com",
           desc: "אתר אישי לזמרת האופרה ורוניקה ברוק. בפרודקשן — veronikabrook.com.",
           tags: ["next.js", "react", "typescript"],
           stats: false,
