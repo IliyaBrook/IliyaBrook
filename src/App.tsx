@@ -1,3 +1,4 @@
+import { Suspense } from 'react';
 import { Outlet } from 'react-router-dom';
 import { Footer } from './components/Footer';
 import { Header } from './components/Header';
@@ -17,7 +18,9 @@ function App() {
         theme={theme}
         setTheme={setTheme}
       />
-      <Outlet context={{ t, lang }} />
+      <Suspense fallback={null}>
+        <Outlet context={{ t, lang }} />
+      </Suspense>
       <Footer t={t} />
     </div>
   );
