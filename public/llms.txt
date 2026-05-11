@@ -1,0 +1,15 @@
+# Iliya Brook
+
+> Full-stack developer based in Tel Aviv, Israel. Works with React, Next.js, and Node.js. Portfolio site with bio, projects, resume, and a small driving-route tool.
+
+## Pages
+
+- [About](https://iliyabrook.com/): Personal introduction, current focus, and contact links.
+- [Projects](https://iliyabrook.com/projects): Selected open-source and personal projects with links to GitHub repositories and live demos.
+- [Driving](https://iliyabrook.com/driving): A small interactive tool related to driving routes.
+- [Resume](https://iliyabrook.com/resume): Professional experience, skills, and education.
+
+## Contact
+
+- Email: iliyabrook1987@gmail.com
+- GitHub: https://github.com/IliyaBrook
