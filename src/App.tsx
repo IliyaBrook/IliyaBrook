@@ -18,9 +18,11 @@ function App() {
         theme={theme}
         setTheme={setTheme}
       />
-      <Suspense fallback={null}>
-        <Outlet context={{ t, lang }} />
-      </Suspense>
+      <main>
+        <Suspense fallback={null}>
+          <Outlet context={{ t, lang }} />
+        </Suspense>
+      </main>
       <Footer t={t} />
     </div>
   );
