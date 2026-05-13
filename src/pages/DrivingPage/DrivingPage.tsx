@@ -10,6 +10,7 @@ const COURSE_URLS: (string | null)[] = [
   'https://correct-driving-test.vercel.app/',
   'https://loading-and-unloading.vercel.app/',
   'https://road-accidents-kappa.vercel.app',
+  'https://the-human-factor-beta.vercel.app',
 ];
 
 export function DrivingPage() {

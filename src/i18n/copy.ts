@@ -58,7 +58,7 @@ export const SITE_COPY: Record<Lang, SiteCopy> = {
     },
     driving: {
       heading: "Driving exams",
-      sub: "Three small practice apps for a heavy-truck driving school in Israel. Replacing 400-question Word documents with something you can study on a phone.",
+      sub: "Four small practice apps for a heavy-truck driving school in Israel. Replacing 400-question Word documents with something you can study on a phone.",
       list: [
         {
           name: "Safe driving",
@@ -74,6 +74,11 @@ export const SITE_COPY: Record<Lang, SiteCopy> = {
           name: "Road accidents",
           he: "תאונות דרכים",
           desc: "Incident scenarios — what to do, who to call.",
+        },
+        {
+          name: "The human factor",
+          he: "הגורם האנושי",
+          desc: "Human-factor topics — fatigue, attention, decision-making.",
         },
       ],
     },
@@ -241,7 +246,7 @@ export const SITE_COPY: Record<Lang, SiteCopy> = {
     },
     driving: {
       heading: "Вождение",
-      sub: "Три небольших тренажёра для израильской автошколы тяжёлых грузовиков. Замена 400‑вопросных Word‑файлов на то, с чем можно готовиться с телефона.",
+      sub: "Четыре небольших тренажёра для израильской автошколы тяжёлых грузовиков. Замена 400‑вопросных Word‑файлов на то, с чем можно готовиться с телефона.",
       list: [
         {
           name: "Безопасное вождение",
@@ -257,6 +262,11 @@ export const SITE_COPY: Record<Lang, SiteCopy> = {
           name: "ДТП",
           he: "תאונות דרכים",
           desc: "Сценарии аварий — что делать и кому звонить.",
+        },
+        {
+          name: "Человеческий фактор",
+          he: "הגורם האנושי",
+          desc: "Человеческий фактор — усталость, внимание, принятие решений.",
         },
       ],
     },
@@ -421,7 +431,7 @@ export const SITE_COPY: Record<Lang, SiteCopy> = {
     },
     driving: {
       heading: "מבחני נהיגה",
-      sub: "שלוש אפליקציות תרגול קטנות לבית ספר לנהיגת משאיות כבדות. תחליף לקבצי Word עם 400 שאלות — אפשר ללמוד מהטלפון.",
+      sub: "ארבע אפליקציות תרגול קטנות לבית ספר לנהיגת משאיות כבדות. תחליף לקבצי Word עם 400 שאלות — אפשר ללמוד מהטלפון.",
       list: [
         {
           name: "נהיגה נכונה",
@@ -437,6 +447,11 @@ export const SITE_COPY: Record<Lang, SiteCopy> = {
           name: "תאונות דרכים",
           he: "תאונות דרכים",
           desc: "תרחישי תאונות — מה לעשות, למי להתקשר.",
+        },
+        {
+          name: "הגורם האנושי",
+          he: "הגורם האנושי",
+          desc: "הגורם האנושי — עייפות, קשב וקבלת החלטות.",
         },
       ],
     },
