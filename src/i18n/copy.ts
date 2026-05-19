@@ -67,8 +67,8 @@ export const SITE_COPY: Record<Lang, SiteCopy> = {
         },
         {
           name: "Loading & unloading",
-          he: "טעינה פריקה",
-          desc: "Cargo handling rules drill, with diagrams.",
+          he: "טעינה ופריקה",
+          desc: "Cargo handling rules drill.",
         },
         {
           name: "Road accidents",
@@ -76,9 +76,9 @@ export const SITE_COPY: Record<Lang, SiteCopy> = {
           desc: "Incident scenarios — what to do, who to call.",
         },
         {
-          name: "The human factor",
-          he: "הגורם האנושי",
-          desc: "Human-factor topics — fatigue, attention, decision-making.",
+          name: "Theory exam",
+          he: "מבחן תאוריה",
+          desc: "Heavy truck (category C).",
         },
       ],
     },
@@ -255,8 +255,8 @@ export const SITE_COPY: Record<Lang, SiteCopy> = {
         },
         {
           name: "Погрузка / разгрузка",
-          he: "טעינה פריקה",
-          desc: "Тренажёр правил перевозки груза с диаграммами.",
+          he: "טעינה ופריקה",
+          desc: "Тренажёр правил перевозки груза.",
         },
         {
           name: "ДТП",
@@ -264,9 +264,9 @@ export const SITE_COPY: Record<Lang, SiteCopy> = {
           desc: "Сценарии аварий — что делать и кому звонить.",
         },
         {
-          name: "Человеческий фактор",
-          he: "הגורם האנושי",
-          desc: "Человеческий фактор — усталость, внимание, принятие решений.",
+          name: "Теоретический экзамен",
+          he: "מבחן תאוריה",
+          desc: "Тяжёлый грузовой автомобиль (категория C).",
         },
       ],
     },
@@ -441,7 +441,7 @@ export const SITE_COPY: Record<Lang, SiteCopy> = {
         {
           name: "טעינה ופריקה",
           he: "טעינה ופריקה",
-          desc: "תרגול נהלי טעינה ופריקה, עם תרשימים.",
+          desc: "תרגול נהלי טעינה ופריקה.",
         },
         {
           name: "תאונות דרכים",
@@ -449,9 +449,9 @@ export const SITE_COPY: Record<Lang, SiteCopy> = {
           desc: "תרחישי תאונות — מה לעשות, למי להתקשר.",
         },
         {
-          name: "הגורם האנושי",
-          he: "הגורם האנושי",
-          desc: "הגורם האנושי — עייפות, קשב וקבלת החלטות.",
+          name: "מבחן תאוריה",
+          he: "מבחן תאוריה",
+          desc: "רכב משא כבד (C).",
         },
       ],
     },
