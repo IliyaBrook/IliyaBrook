@@ -63,17 +63,17 @@ export const SITE_COPY: Record<Lang, SiteCopy> = {
         {
           name: "Safe driving",
           he: "נהיגה נכונה",
-          desc: "Theory bank — full question pool with explanations.",
+          desc: "Safe driving practice — heavy truck.",
         },
         {
           name: "Loading & unloading",
           he: "טעינה ופריקה",
-          desc: "Cargo handling rules drill.",
+          desc: "Cargo handling rules — heavy truck.",
         },
         {
           name: "Road accidents",
           he: "תאונות דרכים",
-          desc: "Incident scenarios — what to do, who to call.",
+          desc: "Road accident practice exams.",
         },
         {
           name: "Theory exam",
@@ -251,17 +251,17 @@ export const SITE_COPY: Record<Lang, SiteCopy> = {
         {
           name: "Безопасное вождение",
           he: "נהיגה נכונה",
-          desc: "Теоретический банк — все вопросы с пояснениями.",
+          desc: "Практика безопасного вождения — тяжёлый грузовик.",
         },
         {
           name: "Погрузка / разгрузка",
           he: "טעינה ופריקה",
-          desc: "Тренажёр правил перевозки груза.",
+          desc: "Правила перевозки груза — тяжёлый грузовик.",
         },
         {
           name: "ДТП",
           he: "תאונות דרכים",
-          desc: "Сценарии аварий — что делать и кому звонить.",
+          desc: "Практические экзамены по ДТП.",
         },
         {
           name: "Теоретический экзамен",
@@ -436,17 +436,17 @@ export const SITE_COPY: Record<Lang, SiteCopy> = {
         {
           name: "נהיגה נכונה",
           he: "נהיגה נכונה",
-          desc: "בנק תאוריה — מאגר שאלות מלא עם הסברים.",
+          desc: "מבחן תרגול נהיגה נכונה ברכב משא כבד.",
         },
         {
           name: "טעינה ופריקה",
           he: "טעינה ופריקה",
-          desc: "תרגול נהלי טעינה ופריקה.",
+          desc: "תרגול נהלי טעינה ופריקה ברכב משא כבד.",
         },
         {
           name: "תאונות דרכים",
           he: "תאונות דרכים",
-          desc: "תרחישי תאונות — מה לעשות, למי להתקשר.",
+          desc: "מבחני תרגול על תאונות בדרכים.",
         },
         {
           name: "מבחן תאוריה",
