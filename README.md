@@ -67,9 +67,9 @@ I'm a **Full Stack Developer** based in Tel-Aviv with **4+ years of experience**
 
 ## 📊 GitHub Stats
 
-![Iliya's GitHub stats](https://github-readme-stats.vercel.app/api?username=IliyaBrook&show_icons=true&theme=radical&count_private=true&include_all_commits=true&hide=stars,prs,issues,contribs)
+![Iliya's GitHub stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=IliyaBrook&theme=radical)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=IliyaBrook&layout=compact&theme=radical&count_private=true&include_all_commits=true)
+![Top Languages](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=IliyaBrook&theme=radical)
 
 ## 📈 GitHub Profile Stats
 
