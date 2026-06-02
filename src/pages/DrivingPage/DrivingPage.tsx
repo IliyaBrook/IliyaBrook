@@ -7,10 +7,10 @@ import type { LayoutContext } from '@/pages/AboutPage';
 import styles from './DrivingPage.module.scss';
 
 const COURSE_URLS: (string | null)[] = [
-  'https://correct-driving-test.vercel.app/',
-  'https://loading-and-unloading.vercel.app/',
-  'https://road-accidents-kappa.vercel.app',
-  'https://theory-exam-truck-c.vercel.app',
+  'https://correct-driving-test.iliyabrook.com',
+  'https://loading-and-unloading.iliyabrook.com',
+  'https://road-accidents-kappa.iliyabrook.com',
+  'https://theory-exam-truck-c.iliyabrook.com',
 ];
 
 export function DrivingPage() {
