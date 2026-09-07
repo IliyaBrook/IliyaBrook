@@ -50,7 +50,7 @@ export type SiteCopy = {
   };
   sections: { about: string; projects: string; driving: string; resume: string };
   aboutLong: string[];
-  googleIntegration: { heading: string; description: string; privacyLink: string };
+  integrations: { heading: string; description: string; privacyLink: string };
   privacy: {
     title: string;
     updated: string;

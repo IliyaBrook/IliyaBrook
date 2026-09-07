@@ -10,11 +10,11 @@ export function AboutPage() {
   return (
     <div className="page-body">
       <Hero t={t} />
-      <section className={styles.integration} aria-labelledby="google-integration">
+      <section className={styles.integration} aria-labelledby="personal-projects">
         <div className="shell">
-          <h2 id="google-integration">{t.googleIntegration.heading}</h2>
-          <p>{t.googleIntegration.description}</p>
-          <Link to="/privacy">{t.googleIntegration.privacyLink}</Link>
+          <h2 id="personal-projects">{t.integrations.heading}</h2>
+          <p>{t.integrations.description}</p>
+          <Link to="/privacy">{t.integrations.privacyLink}</Link>
         </div>
       </section>
     </div>
