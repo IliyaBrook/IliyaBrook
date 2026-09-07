@@ -1,0 +1,8 @@
+.integration {
+  padding-block: 32px;
+  border-top: 1px solid var(--border-1);
+
+  h2 { font-size: 20px; margin-block: 0 12px; }
+  p { max-width: 75ch; color: var(--fg-1); line-height: 1.7; }
+  a { color: var(--accent); }
+}

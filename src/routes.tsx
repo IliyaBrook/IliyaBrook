@@ -14,6 +14,9 @@ const ResumePage = lazy(() =>
 const DrivingPage = lazy(() =>
   import("./pages/DrivingPage").then((m) => ({ default: m.DrivingPage })),
 );
+const PrivacyPage = lazy(() =>
+  import("./pages/PrivacyPage").then((m) => ({ default: m.PrivacyPage })),
+);
 
 export function AppRoutes() {
   return (
@@ -23,6 +26,7 @@ export function AppRoutes() {
         <Route path="projects" element={<ProjectsPage />} />
         <Route path="driving" element={<DrivingPage />} />
         <Route path="resume" element={<ResumePage />} />
+        <Route path="privacy" element={<PrivacyPage />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Route>
     </Routes>

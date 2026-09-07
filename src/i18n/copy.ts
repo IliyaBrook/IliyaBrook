@@ -186,7 +186,26 @@ export const SITE_COPY: Record<Lang, SiteCopy> = {
         message: "This section is still being built. Please check back soon.",
       },
     },
-    footer: { copyright: "© 2026 Iliya Brook" },
+    googleIntegration: {
+      heading: "Personal Google integration",
+      description: "Iliya Brook also operates Brooks Assistant, a personal OpenClaw assistant connected to Gmail through gog. With the account owner's authorization, it can read email and send messages on the owner's behalf. This integration is for personal use; visiting this website does not grant access to your Google account.",
+      privacyLink: "How Google data is used",
+    },
+    privacy: {
+      title: "Privacy policy",
+      updated: "Updated September 8, 2026",
+      intro: "This notice describes iliyabrook.com and the personal Google integration operated by Iliya Brook under the OAuth app name Iliya Brook, including Brooks Assistant (OpenClaw and gog).",
+      sections: [
+        { heading: "Google account access", paragraphs: ["Google OAuth asks the account owner to approve access. The Gmail integration requests permission to read messages and settings (gmail.readonly) and to send email (gmail.send). Data used for these tasks includes message contents, attachments when needed, subjects, and sender and recipient addresses. Google sign-in, where used, accesses the identity information shown on its consent screen.", "Gmail permissions are for the owner's personal assistant. They are not requested from ordinary visitors to this portfolio or its linked driving-exam sites."] },
+        { heading: "Use and processing", paragraphs: ["Google data is used to perform the owner's email tasks, such as reading, summarizing, composing, and sending messages. OpenClaw runs on the owner's server. Relevant task content is sent to OpenAI when its models process a request. Sent messages are delivered through Google to the recipients selected for that task.", "Google user data is not sold, used for advertising, or used by this integration to train general-purpose AI models. Its use is limited to the features authorized by the owner and the Google API Services User Data Policy, including Limited Use requirements."] },
+        { heading: "Storage and deletion", paragraphs: ["OAuth credentials and tokens are stored in the owner's gog configuration and credential store on the server, not in this public website. Assistant conversations and tool results can be retained in OpenClaw history and server backups until the owner deletes them. OpenAI's processing and retention depend on the OpenAI service and account settings used.", "Revoking Google access stops future authorized API access but does not erase earlier messages, assistant history, backups, or messages already delivered to recipients. The owner can remove gog credentials, delete local assistant history and backups, and manage provider-held data through the relevant provider's controls."] },
+        { heading: "Website and contact", paragraphs: ["The portfolio is hosted by Vercel. Hosting requests include technical information such as IP address and browser information. The website stores theme and language preferences in the browser and caches public GitHub project statistics. It does not store Gmail messages or OAuth credentials.", "For questions or requests concerning data handled by this integration, contact Iliya Brook at the address below. This notice will be updated when the integration's data practices change."] },
+      ],
+      revoke: "Manage or revoke access in your Google Account",
+      limitedUse: "Google API Services User Data Policy and Limited Use",
+      contact: "Contact:",
+    },
+    footer: { copyright: "© 2026 Iliya Brook", privacy: "Privacy policy" },
   },
 
   ru: {
@@ -371,7 +390,26 @@ export const SITE_COPY: Record<Lang, SiteCopy> = {
         message: "Этот раздел ещё в разработке. Загляните чуть позже.",
       },
     },
-    footer: { copyright: "© 2026 Илья Брук" },
+    googleIntegration: {
+      heading: "Личная интеграция с Google",
+      description: "Илья Брук также использует Brooks Assistant — личного помощника OpenClaw, подключённого к Gmail через gog. С разрешения владельца аккаунта помощник читает и отправляет письма от его имени. Интеграция предназначена для личного использования; посещение сайта не предоставляет доступ к вашему Google-аккаунту.",
+      privacyLink: "Как используются данные Google",
+    },
+    privacy: {
+      title: "Политика конфиденциальности",
+      updated: "Обновлено 8 сентября 2026 года",
+      intro: "Эта политика описывает iliyabrook.com и личную интеграцию с Google под управлением Ильи Брука. Название OAuth-приложения — Iliya Brook; интеграция включает Brooks Assistant (OpenClaw и gog).",
+      sections: [
+        { heading: "Доступ к Google-аккаунту", paragraphs: ["Владелец аккаунта подтверждает доступ через Google OAuth. Gmail-интеграция запрашивает чтение писем и настроек (gmail.readonly) и отправку писем (gmail.send). Для этих задач используются содержание писем, необходимые вложения, темы и адреса отправителей и получателей. При использовании входа через Google доступны сведения о личности, перечисленные на экране согласия.", "Разрешения Gmail предназначены для личного помощника владельца. Они не запрашиваются у обычных посетителей этого портфолио или связанных сайтов экзаменов по вождению."] },
+        { heading: "Использование и обработка", paragraphs: ["Данные Google используются для почтовых задач владельца: чтения, пересказа, составления и отправки писем. OpenClaw работает на сервере владельца. Содержание, необходимое для задачи, передаётся OpenAI при обработке запроса его моделями. Письма отправляются через Google получателям, выбранным для этой задачи.", "Данные пользователей Google не продаются, не используются для рекламы или обучения универсальных моделей ИИ этой интеграцией. Использование ограничено разрешёнными владельцем функциями и требованиями Google API Services User Data Policy, включая Limited Use."] },
+        { heading: "Хранение и удаление", paragraphs: ["Учётные данные и токены OAuth хранятся в конфигурации и хранилище учётных данных gog на сервере владельца, а не на этом публичном сайте. Переписка с помощником и результаты инструментов могут сохраняться в истории OpenClaw и резервных копиях сервера до удаления владельцем. Обработка и сроки хранения в OpenAI зависят от используемого сервиса и настроек аккаунта.", "Отзыв доступа Google прекращает последующий разрешённый доступ к API, но не удаляет ранее полученные письма, историю помощника, резервные копии и уже доставленные сообщения. Владелец может удалить учётные данные gog, локальную историю и резервные копии, а также управлять данными у провайдеров через их средства управления."] },
+        { heading: "Сайт и обратная связь", paragraphs: ["Портфолио размещено на Vercel. Запросы к хостингу содержат технические сведения, включая IP-адрес и информацию о браузере. Сайт сохраняет в браузере выбранные язык и тему, а также кэширует публичную статистику проектов GitHub. Письма Gmail и учётные данные OAuth на сайте не хранятся.", "Вопросы и запросы о данных этой интеграции можно направить Илье Бруку по адресу ниже. Политика обновляется при изменении обработки данных."] },
+      ],
+      revoke: "Управление доступом и его отзыв в Google-аккаунте",
+      limitedUse: "Google API Services User Data Policy и Limited Use",
+      contact: "Контакт:",
+    },
+    footer: { copyright: "© 2026 Илья Брук", privacy: "Конфиденциальность" },
   },
 
   he: {
@@ -556,6 +594,25 @@ export const SITE_COPY: Record<Lang, SiteCopy> = {
         message: "החלק הזה עדיין בפיתוח. נסו שוב בקרוב.",
       },
     },
-    footer: { copyright: "© 2026 איליה ברוק" },
+    googleIntegration: {
+      heading: "חיבור אישי ל-Google",
+      description: "איליה ברוק מפעיל גם את Brooks Assistant, עוזר אישי המבוסס על OpenClaw ומחובר ל-Gmail באמצעות gog. באישור בעל החשבון, העוזר קורא ושולח הודעות בשמו. החיבור מיועד לשימוש אישי; ביקור באתר אינו מעניק גישה לחשבון Google שלכם.",
+      privacyLink: "כיצד נעשה שימוש בנתוני Google",
+    },
+    privacy: {
+      title: "מדיניות פרטיות",
+      updated: "עודכן ב-8 בספטמבר 2026",
+      intro: "מדיניות זו מתארת את iliyabrook.com ואת החיבור האישי ל-Google שמפעיל איליה ברוק בשם יישום ה-OAuth ‏Iliya Brook, לרבות Brooks Assistant המבוסס על OpenClaw ו-gog.",
+      sections: [
+        { heading: "גישה לחשבון Google", paragraphs: ["בעל החשבון מאשר גישה באמצעות Google OAuth. החיבור ל-Gmail מבקש הרשאה לקריאת הודעות והגדרות (gmail.readonly) ולשליחת דואר (gmail.send). המידע המשמש לביצוע המשימות כולל תוכן הודעות, קבצים מצורפים לפי הצורך, נושאים וכתובות שולחים ונמענים. כאשר נעשה שימוש בכניסה באמצעות Google, הגישה לפרטי הזהות היא בהתאם למסך ההסכמה.", "הרשאות Gmail מיועדות לעוזר האישי של בעל החשבון. הן אינן מתבקשות ממבקרים רגילים בתיק העבודות או באתרי מבחני הנהיגה המקושרים אליו."] },
+        { heading: "שימוש ועיבוד", paragraphs: ["נתוני Google משמשים למשימות הדואר של בעל החשבון, כגון קריאה, סיכום, ניסוח ושליחה. OpenClaw פועל בשרת של הבעלים. תוכן הנחוץ למשימה מועבר ל-OpenAI כאשר המודלים שלה מעבדים את הבקשה. הודעות נשלחות באמצעות Google לנמענים שנבחרו למשימה.", "נתוני משתמשי Google אינם נמכרים ואינם משמשים לפרסום או לאימון מודלי AI כלליים באמצעות חיבור זה. השימוש מוגבל לתכונות שאישר הבעלים ולמדיניות Google API Services User Data Policy, לרבות דרישות Limited Use."] },
+        { heading: "אחסון ומחיקה", paragraphs: ["פרטי OAuth ואסימוני הגישה נשמרים בתצורה ובמאגר האישורים של gog בשרת הבעלים, ולא באתר הציבורי. שיחות עם העוזר ותוצאות כלים עשויות להישמר בהיסטוריית OpenClaw ובגיבויי השרת עד למחיקתן בידי הבעלים. העיבוד ומשך השמירה ב-OpenAI תלויים בשירות ובהגדרות החשבון שבהם נעשה שימוש.", "ביטול הרשאת Google מפסיק גישה עתידית מורשית ל-API, אך אינו מוחק הודעות קודמות, היסטוריית עוזר, גיבויים או הודעות שכבר נמסרו לנמענים. הבעלים יכול להסיר את אישורי gog, למחוק היסטוריה וגיבויים מקומיים ולנהל מידע השמור אצל ספקים באמצעות כלי הניהול שלהם."] },
+        { heading: "האתר ויצירת קשר", paragraphs: ["תיק העבודות מאוחסן ב-Vercel. בקשות לאתר כוללות מידע טכני כגון כתובת IP ומידע על הדפדפן. האתר שומר בדפדפן העדפות שפה ועיצוב ומטמון של נתונים ציבוריים על פרויקטים ב-GitHub. האתר אינו מאחסן הודעות Gmail או אישורי OAuth.", "לשאלות או בקשות הנוגעות לנתונים המטופלים בחיבור זה, ניתן לפנות לאיליה ברוק בכתובת שלהלן. מדיניות זו תעודכן כאשר אופן הטיפול בנתונים ישתנה."] },
+      ],
+      revoke: "ניהול או ביטול גישה בחשבון Google",
+      limitedUse: "Google API Services User Data Policy ו-Limited Use",
+      contact: "יצירת קשר:",
+    },
+    footer: { copyright: "© 2026 איליה ברוק", privacy: "מדיניות פרטיות" },
   },
 };

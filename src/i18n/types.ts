@@ -50,6 +50,16 @@ export type SiteCopy = {
   };
   sections: { about: string; projects: string; driving: string; resume: string };
   aboutLong: string[];
+  googleIntegration: { heading: string; description: string; privacyLink: string };
+  privacy: {
+    title: string;
+    updated: string;
+    intro: string;
+    sections: { heading: string; paragraphs: string[] }[];
+    revoke: string;
+    limitedUse: string;
+    contact: string;
+  };
   projectsPage: {
     heading: string;
     sub: string;
@@ -74,5 +84,5 @@ export type SiteCopy = {
     close: string;
     inDev: { title: string; message: string };
   };
-  footer: { copyright: string };
+  footer: { copyright: string; privacy: string };
 };
